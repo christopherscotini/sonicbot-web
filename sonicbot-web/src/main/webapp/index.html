@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myAppSonicBot">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+
+<script src="resources/js/angular/angular.min.js"></script>
+<script src="resources/js/angular/app.js"></script>
+<script src="resources/js/angular/games/controller/games_controller.js"></script>
+<script src="resources/js/angular/games/service/games_service.js"></script>
+
+<title>Insert title here</title>
+</head>
+<body ng-controller="GameController as ctrl">
+
+	<form name="form">
+
+		<h3 name="messag1e" ng-bind='message' ng-required="false"></h3>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Competition</th>
+					<th>Home Team</th>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th>Away Team</th>
+					<th>Prob. Over 0.5</th>
+					<th>FullTime Result</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="m in matches">
+					<td>{{m.game.competitionSeason.competition.name}}</td>
+					<td>{{m.game.homeTeam.name}}</td>
+					<td>{{m.game.scoreHomeTeam}}</td>
+					<td>X</td>
+					<td>{{m.game.scoreAwayTeam}}</td>
+					<td>{{m.game.awayTeam.name}}</td>
+					<td>{{m.game.gameAnalysis.goalAnalysis.over05GoalProbability}}%</td>
+					<td>teste2</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
+</body>
