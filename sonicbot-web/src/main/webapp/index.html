@@ -5,10 +5,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
 
+<link rel="stylesheet" type="text/css" media="screen"
+	href="resources/theme/css/application.css" type="css" />
+<script src="lib/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="resources/js/angular/angular.min.js"></script>
 <script src="resources/js/angular/app.js"></script>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/jquery-pjax/jquery.pjax.js"></script>
+<script src="lib/widgster/widgster.js"></script>
+<script src="lib/underscore/underscore.js"></script>
+
 <script src="resources/js/angular/games/controller/games_controller.js"></script>
 <script src="resources/js/angular/games/service/games_service.js"></script>
+
+
 
 <title>Insert title here</title>
 </head>
@@ -16,34 +26,84 @@
 
 	<form name="form">
 
-		<h3 name="messag1e" ng-bind='message' ng-required="false"></h3>
-
-		<table>
-			<thead>
-				<tr>
-					<th>Competition</th>
-					<th>Home Team</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th>Away Team</th>
-					<th>Prob. Over 0.5</th>
-					<th>FullTime Result</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-repeat="m in matches">
-					<td>{{m.game.competitionSeason.competition.name}}</td>
-					<td>{{m.game.homeTeam.name}}</td>
-					<td>{{m.game.scoreHomeTeam}}</td>
-					<td>X</td>
-					<td>{{m.game.scoreAwayTeam}}</td>
-					<td>{{m.game.awayTeam.name}}</td>
-					<td>{{m.game.gameAnalysis.goalAnalysis.over05GoalProbability}}%</td>
-					<td>teste2</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="widget-body">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Competition</th>
+						<th>Home Team</th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th>Away Team</th>
+						<th>Prob. Over 0.5</th>
+						<th>FullTime Result</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+					<tr>
+						<td>Brasil - Paulista Série A</td>
+						<td>São Paulo</td>
+						<td>2</td>
+						<td>X</td>
+						<td>2</td>
+						<td>Mirassol</td>
+						<td>87%</td>
+						<td>1X - 90%</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</form>
 </body>
 </html>
