@@ -27,20 +27,26 @@
 					<th></th>
 					<th></th>
 					<th>Away Team</th>
-					<th>Prob. Over 0.5</th>
-					<th>FullTime Result</th>
+					<th>HOME Prob. Over 0.5 Cond.</th>
+					<th>AWAY Prob. Over 0.5 Cond.</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="m in matches">
-					<td>{{m.game.competitionSeason.competition.name}}</td>
-					<td>{{m.game.homeTeam.name}}</td>
-					<td>{{m.game.scoreHomeTeam}}</td>
+					<td>{{m.matchResume.homeTeam.team.competition.competition.name}}</td>
+					<td>{{m.matchResume.homeTeam.team.name}}</td>
+					<td>{{m.matchResume.homeTeam.score}}</td>
 					<td>X</td>
-					<td>{{m.game.scoreAwayTeam}}</td>
-					<td>{{m.game.awayTeam.name}}</td>
-					<td>{{m.game.gameAnalysis.goalAnalysis.over05GoalProbability}}%</td>
-					<td>teste2</td>
+					<td>{{m.matchResume.awayTeam.score}}</td>
+					<td>{{m.matchResume.awayTeam.team.name}}</td>
+					<td>
+						{{m.predictions.homeTeamPrediction.conditionType}} - 
+						{{m.predictions.homeTeamPrediction.goalPrediction.over05.probOver05Condition}}%
+					</td>
+					<td>
+						{{m.predictions.awayTeamPrediction.conditionType}} - 
+						{{m.predictions.awayTeamPrediction.goalPrediction.over05.probOver05Condition}}%
+					</td>
 				</tr>
 			</tbody>
 		</table>
