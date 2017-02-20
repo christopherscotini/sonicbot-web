@@ -1,3 +1,4 @@
 .settings
 /sonicbot-web/*.classpath
 /sonicbot-web/*.project
+target
