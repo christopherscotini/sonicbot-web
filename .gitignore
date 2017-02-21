@@ -2,3 +2,4 @@
 /sonicbot-web/*.classpath
 /sonicbot-web/*.project
 target
+/sonicbot-web/*.tern-project
