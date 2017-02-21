@@ -4,7 +4,6 @@ angular.module('myAppSonicBot').controller('GameController',
 		[ '$scope', 'GameService', function($scope, GameService) {
 
 			$scope.matches = [];
-
 			fetchAllGames();
 
 			function fetchAllGames() {

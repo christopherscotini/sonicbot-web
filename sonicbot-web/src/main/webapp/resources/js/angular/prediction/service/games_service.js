@@ -13,7 +13,9 @@ angular.module('myAppSonicBot').factory('GameService',
 
 			function fetchAllGames() {
 				var deferred = $q.defer();
-				$http.get(REST_SERVICE_URI).then(function(response) {
+				console.log('testetetet '+$http.get("predictions_mock.json"));
+				$http.get("resources/js/angular/prediction/service/mock/predictions_mock.json").then(function(response) {
+					// $http.get(REST_SERVICE_URI).then(function(response) {
 					deferred.resolve(response.data);
 				}, function(errResponse) {
 					console.error('Error while fetching games');

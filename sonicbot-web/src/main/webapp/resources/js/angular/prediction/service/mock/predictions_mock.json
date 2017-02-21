@@ -1,0 +1,326 @@
+[
+	{
+		"matchResume": {
+			"date": {
+				"year": 2017,
+				"month": "FEBRUARY",
+				"era": "CE",
+				"dayOfMonth": 21,
+				"dayOfWeek": "TUESDAY",
+				"dayOfYear": 52,
+				"leapYear": false,
+				"monthValue": 2,
+				"chronology": {
+					"id": "ISO",
+					"calendarType": "iso8601"
+				}
+			},
+			"linkMatch": "https://www.academiadasapostas.com/stats/match/espanha-stats/primera-division/malaga/las-palmas/2283129",
+			"homeTeam": {
+				"team": {
+					"id": null,
+					"name": "Málaga",
+					"competition": {
+						"competition": {
+							"id": 7,
+							"name": "Espanha - Primera División",
+							"link": "https://www.academiadasapostas.com/stats/competition/espanha/7",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 2,
+				"condition": "HOME_TEAM"
+			},
+			"awayTeam": {
+				"team": {
+					"id": null,
+					"name": "Las Palmas",
+					"competition": {
+						"competition": {
+							"id": 7,
+							"name": "Espanha - Primera División",
+							"link": "https://www.academiadasapostas.com/stats/competition/espanha/7",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 1,
+				"condition": "AWAY_TEAM"
+			}
+		},
+		"predictions": {
+			"homeTeamPrediction": {
+				"conditionType": "HOME_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 80.0,
+						"probTeamScoreCondition": 70.0,
+						"probTeamScoreLast3GamesGeneral": 80.0,
+						"probTeamScoreLast3GamesCondition": 70.0,
+						"avg": 75.0,
+						"avgLast3Games": 75.0
+					}
+				}
+			},
+			"awayTeamPrediction": {
+				"conditionType": "AWAY_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 90.0,
+						"probTeamScoreCondition": 60.0,
+						"probTeamScoreLast3GamesGeneral": 90.0,
+						"probTeamScoreLast3GamesCondition": 60.0,
+						"avg": 75.0,
+						"avgLast3Games": 75.0
+					}
+				}
+			}
+		}
+	},
+	{
+		"matchResume": {
+			"date": {
+				"year": 2017,
+				"month": "FEBRUARY",
+				"era": "CE",
+				"dayOfMonth": 21,
+				"dayOfWeek": "TUESDAY",
+				"dayOfYear": 52,
+				"leapYear": false,
+				"monthValue": 2,
+				"chronology": {
+					"id": "ISO",
+					"calendarType": "iso8601"
+				}
+			},
+			"linkMatch": "https://www.academiadasapostas.com/stats/match/portugal-stats/primeira-liga/maritimo/nacional/2284922",
+			"homeTeam": {
+				"team": {
+					"id": null,
+					"name": "Marítimo",
+					"competition": {
+						"competition": {
+							"id": 63,
+							"name": "Portugal - Primeira Liga",
+							"link": "https://www.academiadasapostas.com/stats/competition/portugal/63",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 0,
+				"condition": "HOME_TEAM"
+			},
+			"awayTeam": {
+				"team": {
+					"id": null,
+					"name": "Nacional",
+					"competition": {
+						"competition": {
+							"id": 63,
+							"name": "Portugal - Primeira Liga",
+							"link": "https://www.academiadasapostas.com/stats/competition/portugal/63",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 0,
+				"condition": "AWAY_TEAM"
+			}
+		},
+		"predictions": {
+			"homeTeamPrediction": {
+				"conditionType": "HOME_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 70.0,
+						"probTeamScoreCondition": 80.0,
+						"probTeamScoreLast3GamesGeneral": 70.0,
+						"probTeamScoreLast3GamesCondition": 80.0,
+						"avg": 75.0,
+						"avgLast3Games": 75.0
+					}
+				}
+			},
+			"awayTeamPrediction": {
+				"conditionType": "AWAY_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 90.0,
+						"probTeamScoreCondition": 60.0,
+						"probTeamScoreLast3GamesGeneral": 90.0,
+						"probTeamScoreLast3GamesCondition": 60.0,
+						"avg": 75.0,
+						"avgLast3Games": 75.0
+					}
+				}
+			}
+		}
+	},
+	{
+		"matchResume": {
+			"date": {
+				"year": 2017,
+				"month": "FEBRUARY",
+				"era": "CE",
+				"dayOfMonth": 21,
+				"dayOfWeek": "TUESDAY",
+				"dayOfYear": 52,
+				"leapYear": false,
+				"monthValue": 2,
+				"chronology": {
+					"id": "ISO",
+					"calendarType": "iso8601"
+				}
+			},
+			"linkMatch": "https://www.academiadasapostas.com/stats/match/alemanha-stats/2-bundesliga/1860-munchen/nurnberg/2255399",
+			"homeTeam": {
+				"team": {
+					"id": null,
+					"name": "1860 Munique",
+					"competition": {
+						"competition": {
+							"id": 11,
+							"name": "Alemanha - 2. Bundesliga",
+							"link": "https://www.academiadasapostas.com/stats/competition/alemanha/11",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 2,
+				"condition": "HOME_TEAM"
+			},
+			"awayTeam": {
+				"team": {
+					"id": null,
+					"name": "Nuremberga",
+					"competition": {
+						"competition": {
+							"id": 11,
+							"name": "Alemanha - 2. Bundesliga",
+							"link": "https://www.academiadasapostas.com/stats/competition/alemanha/11",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 0,
+				"condition": "AWAY_TEAM"
+			}
+		},
+		"predictions": {
+			"homeTeamPrediction": {
+				"conditionType": "HOME_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 70.0,
+						"probTeamScoreCondition": 90.0,
+						"probTeamScoreLast3GamesGeneral": 70.0,
+						"probTeamScoreLast3GamesCondition": 90.0,
+						"avg": 80.0,
+						"avgLast3Games": 80.0
+					}
+				}
+			},
+			"awayTeamPrediction": {
+				"conditionType": "AWAY_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 80.0,
+						"probTeamScoreCondition": 100.0,
+						"probTeamScoreLast3GamesGeneral": 80.0,
+						"probTeamScoreLast3GamesCondition": 100.0,
+						"avg": 90.0,
+						"avgLast3Games": 90.0
+					}
+				}
+			}
+		}
+	},
+	{
+		"matchResume": {
+			"date": {
+				"year": 2017,
+				"month": "FEBRUARY",
+				"era": "CE",
+				"dayOfMonth": 21,
+				"dayOfWeek": "TUESDAY",
+				"dayOfYear": 52,
+				"leapYear": false,
+				"monthValue": 2,
+				"chronology": {
+					"id": "ISO",
+					"calendarType": "iso8601"
+				}
+			},
+			"linkMatch": "https://www.academiadasapostas.com/stats/match/dinamarca-stats/superliga/odense/randers/2238419",
+			"homeTeam": {
+				"team": {
+					"id": null,
+					"name": "Odense",
+					"competition": {
+						"competition": {
+							"id": 30,
+							"name": "Dinamarca - Superliga",
+							"link": "https://www.academiadasapostas.com/stats/competition/dinamarca/30",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 3,
+				"condition": "HOME_TEAM"
+			},
+			"awayTeam": {
+				"team": {
+					"id": null,
+					"name": "Randers",
+					"competition": {
+						"competition": {
+							"id": 30,
+							"name": "Dinamarca - Superliga",
+							"link": "https://www.academiadasapostas.com/stats/competition/dinamarca/30",
+							"country": null
+						},
+						"season": null
+					}
+				},
+				"score": 0,
+				"condition": "AWAY_TEAM"
+			}
+		},
+		"predictions": {
+			"homeTeamPrediction": {
+				"conditionType": "HOME_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 60.0,
+						"probTeamScoreCondition": 40.0,
+						"probTeamScoreLast3GamesGeneral": 60.0,
+						"probTeamScoreLast3GamesCondition": 40.0,
+						"avg": 50.0,
+						"avgLast3Games": 50.0
+					}
+				}
+			},
+			"awayTeamPrediction": {
+				"conditionType": "AWAY_TEAM",
+				"goalPrediction": {
+					"over05": {
+						"probTeamScoreGeneral": 80.0,
+						"probTeamScoreCondition": 80.0,
+						"probTeamScoreLast3GamesGeneral": 80.0,
+						"probTeamScoreLast3GamesCondition": 80.0,
+						"avg": 80.0,
+						"avgLast3Games": 80.0
+					}
+				}
+			}
+		}
+	}
+]
