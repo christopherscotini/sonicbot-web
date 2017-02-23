@@ -1,0 +1,29 @@
+{
+  "name": "sonicbot-web",
+  "homepage": "https://github.com/christopherscotini/sonicbot-web",
+  "authors": [
+    "Alyne Salgado"
+  ],
+  "description": "",
+  "main": "src/scripts/main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "normalize-css": "normalize.css#^5.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "angular": "^1.6.2",
+    "underscore": "^1.8.3",
+    "widgster": "^0.0.3"
+  }
+}
