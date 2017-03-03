@@ -6,7 +6,7 @@
 
 
 <link rel="stylesheet" type="text/css" media="screen"
-	href="resources/theme/css/application.css" type="css" />
+	href="assets/css/application.css" type="css" />
 
 <title>Sonicbot</title>
 </head>
@@ -23,10 +23,9 @@
 						<th colspan="3">Score</th>
 						<th>Away Team</th>
 						<th>Over 0.5 [HOME]</th>
-						<th>Over 0.5 [Last 3 Matches]</th>
+						<th>Double Chance [HOME]</th>
 						<th>Over 0.5 [AWAY]</th>
-						<th>Over 0.5 [Last 3 Matches]</th>
-						<th>Double Chance</th>
+						<th>Double Chance [AWAY]</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -47,13 +46,8 @@
 							]
 						</td>
 						<td>
-							[
-							C {{m.predictions.homeTeamPrediction.goalPrediction.over05.probTeamScoreLast3GamesCondition}}% 
-							- 
-							G {{m.predictions.homeTeamPrediction.goalPrediction.over05.probTeamScoreLast3GamesGeneral}}% 
-							-
-							AVG {{m.predictions.homeTeamPrediction.goalPrediction.over05.avgLast3Games}}% 
-							]
+							TIP {{m.predictions.homeTeamPrediction.doubleChancePrediction.tip}}
+							- {{m.predictions.homeTeamPrediction.doubleChancePrediction.probability}}% 
 						</td>
 						<td>
 							[
@@ -65,31 +59,25 @@
 							]
 						</td>
 						<td>
-							[
-							C {{m.predictions.awayTeamPrediction.goalPrediction.over05.probTeamScoreLast3GamesCondition}}% 
-							- 
-							G {{m.predictions.awayTeamPrediction.goalPrediction.over05.probTeamScoreLast3GamesGeneral}}% 
-							-
-							AVG {{m.predictions.awayTeamPrediction.goalPrediction.over05.avgLast3Games}}% 
-							]
-						</td>
-						<td>
-						empty
+							TIP {{m.predictions.awayTeamPrediction.doubleChancePrediction.tip}} 
+							- {{m.predictions.awayTeamPrediction.doubleChancePrediction.probability}}% 
 						</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
 	</form>
-	<script src="../static/js/main.js"></script>
-	<script src="resources/js/lib/jquery-pajax/jquery.pjax.js"></script>
-	<!-- <script src="resources/js/lib/boostrap-sass/assets/javascripts/bootstrap.min.js"></script>
- --><!-- <script src="resources/js/angular/angular.min.js"></script> -->
-	<!-- <script src="resources/js/angular/app.js"></script> -->
-	<!-- <script src="resources/js/lib/widgester/widgster.js"></script> -->
-	<!-- <script src="resources/js/lib/underscore/underscore.js"></script> -->
+	
+	<script src="assets/libs/jquery/jquery.min.js"></script>
+	<script src="assets/libs/jquery-pajax/jquery.pjax.js"></script>
+	<script src="assets/libs/boostrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	<script src="assets/libs/widgester/widgster.js"></script>
+	<script src="assets/libs/underscore/underscore.js"></script>
+	<script src="assets/js/angular.min.js"></script>
+	<script src="angular/app.module.js"></script>
+	<script src="angular/app.routes.js"></script>
+	<script src="angular/components/prediction/matchService.js"></script>
+	<script src="angular/components/prediction/matchController.js"></script>
 
-	<!-- <script src="resources/js/angular/prediction/service/games_service.js"></script>
-	<script src="resources/js/angular/prediction/controller/games_controller.js"></script> -->
 </body>
 </html>
