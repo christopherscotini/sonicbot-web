@@ -3,6 +3,9 @@
 angular.module('myAppSonicBot').controller('GameController',
 		[ '$scope', 'GameService', function($scope, GameService) {
 
+			$scope.orderByField = 'probability';
+			$scope.reverseSort = false;
+			
 			$scope.matches = [];
 			fetchAllGames();
 

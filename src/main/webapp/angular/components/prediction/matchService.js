@@ -3,7 +3,8 @@
 angular.module('myAppSonicBot').factory('GameService',
 		[ '$http', '$q', function($http, $q) {
 
-			var REST_SERVICE_URI = 'https://sonicbot-api.herokuapp.com/predictions/';
+//			var REST_SERVICE_URI = 'https://sonicbot-api.herokuapp.com/predictions/';
+			var REST_SERVICE_URI = 'http://localhost:8060/predictions/';
 
 			var factory = {
 				fetchAllGames : fetchAllGames
