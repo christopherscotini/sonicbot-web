@@ -1,9 +1,10 @@
 'use strict';
 
-angular.module('myAppSonicBot').factory('GameService',
+angular.module('myAppSonicBot').factory('MatchService',
 		[ '$http', '$q', function($http, $q) {
 
-			var REST_SERVICE_URI = 'https://sonicbot-api.herokuapp.com/predictions/';
+//			var REST_SERVICE_URI = 'https://sbcollector.herokuapp.com/sbcollector/matches/list?date=2017-04-14';
+			var REST_SERVICE_URI = 'http://localhost:8082/sbcollector/matches/list?date=2017-04-14';
 
 			var factory = {
 				fetchAllGames : fetchAllGames
