@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-<meta charset="utf-8">
+<head>
+<meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" media="screen"
 	href="assets/css/application.css" type="css" />
 
@@ -10,7 +10,7 @@
 <body>
 
 	<div ng-app="myAppSonicBot">
-		<ng-view></ng-view>
+		<div ng-view></div>
 	</div>
 
 	<script src="assets/libs/jquery/jquery.min.js"></script>
@@ -18,16 +18,16 @@
 	<script src="assets/libs/boostrap-sass/assets/javascripts/bootstrap.min.js"></script>
 	<script src="assets/libs/widgester/widgster.js"></script>
 	<script src="assets/libs/underscore/underscore.js"></script>
-	<script src="assets/js/angular.min.js"></script>
-	<script src="assets/js/angular-router.min.js"></script>
-	<script src="angular/app.module.js"></script>
-	<script src="angular/app.routes.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+  	<script src="https://code.angularjs.org/1.4.4/angular-route.js"></script>
+	
+	<script src="app/app.js"></script>
 
-	<script src="angular/components/home/homeController.js"></script>
-	<script src="angular/components/matches/matchController.js"></script>
+	<script src="app/components/home/homeController.js"></script>
 
-	<script src="angular/components/matches/matchService.js"></script>
-	<script src="angular/components/matches/matchController.js"></script>
+	<script src="app/components/matches/matchService.js"></script>
+	<script src="app/components/matches/matchController.js"></script>
 
 </body>
 </html>
