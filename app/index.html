@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" media="screen"
+	href="assets/css/application.css" type="css" />
+<link rel="stylesheet" type="text/css" media="screen"
+	href="assets/css/layout.css" type="css" />
+
+<title>SonicBot-WEB</title>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h2>14 Bits - SPA com Angular JS</h2>
+		</div>
+
+		<nav class="navbar navbar-default">
+			<ul class="nav navbar-nav">
+				<li ng-class="{ 'active': isActive('/') }"><a href="#!"><span>Dashboard</span></a>
+				</li>
+				<li ng-class="{ 'active': isActive('/usuarios') }"><a
+					href="#!usuarios"><span>Usuários</span></a></li>
+				<li ng-class="{ 'active': isActive('/relatorios') }"><a
+					href="#!relatorios"><span>Relatórios</span></a></li>
+			</ul>
+		</nav>
+
+		<div class="ng-view-stage">
+			<div class="ng-view-page" ng-view></div>
+		</div>
+
+	</div>
+
+	<!-- Angular JS -->
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular/angular-animate.min.js"></script>
+	<script src="lib/angular/angular-route.min.js"></script>
+
+	<!-- Principal -->
+	<script src="js/app.js"></script>
+
+	<!-- Controllers -->
+	<script src="js/controllers/mainController.js"></script>
+	<script src="js/controllers/dashboardController.js"></script>
+	<script src="js/controllers/usuariosController.js"></script>
+	<script src="js/controllers/relatoriosController.js"></script>
+
+</body>
+</html>
