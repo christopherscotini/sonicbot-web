@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" media="screen"
-	href="assets/css/application.css" type="css" />
-
-<title>Sonicbot</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Christopher Rozario">
+<title>SonicBot - by Gamaset</title>
+<link href="favicon1.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="assets/css/lib/bootstrap/bootstrap.css" />
+<link rel="stylesheet"
+	href="assets/css/lib/font-awesome/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/lib/ionicons/ionicons.min.css">
+<link rel="stylesheet"
+	href="assets/css/lib/daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" href="assets/css/lib/jqvmap/jqvmap.css">
+<link rel="stylesheet" href="assets/css/lib/tabdrop/tabdrop.css" />
+<link rel="stylesheet" href="assets/css/styles.css" id="theme-css" />
 </head>
-<body>
+<body ng-app="myApp" ng-controller="mainController">
 
-	<div ng-app="myAppSonicBot">
-		<div ng-view></div>
+	<header w3-include-html="view/layout/header.html"></header>
+
+	<div class="container" id="content-container">
+		<div class="content-wrapper">
+			<div class="row">
+				<div class="side-nav-content">
+					<div class="left-side-wrapper"
+						w3-include-html="view/layout/left-side-menu.html"></div>
+				</div>
+				<div class="main-content-wrapper">
+					<div class="ng-view-stage">
+						<div class="ng-view-page" ng-view></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<script src="assets/libs/jquery/jquery.min.js"></script>
-	<script src="assets/libs/jquery-pajax/jquery.pjax.js"></script>
-	<script src="assets/libs/boostrap-sass/assets/javascripts/bootstrap.min.js"></script>
-	<script src="assets/libs/widgester/widgster.js"></script>
-	<script src="assets/libs/underscore/underscore.js"></script>
+	<footer w3-include-html="view/layout/footer.html"></footer>
+
+
+	<!-- 		<nav class="navbar navbar-default"> -->
+	<!-- 			<ul class="nav navbar-nav"> -->
+	<!-- 				<li ng-class="{ 'active': isActive('/') }"><a href="#!"><span>Dashboard</span></a> -->
+	<!-- 				</li> -->
+	<!-- 				<li ng-class="{ 'active': isActive('/usuarios') }"><a -->
+	<!-- 					href="#!usuarios"><span>Usuários</span></a></li> -->
+	<!-- 				<li ng-class="{ 'active': isActive('/relatorios') }"><a -->
+	<!-- 					href="#!relatorios"><span>Relatórios</span></a></li> -->
+	<!-- 			</ul> -->
+	<!-- 		</nav> -->
+
+
+
+	<script src="assets/js/lib/jquery/jquery-1.10.2.min.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/bootstrap/bootstrap.min.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/slimscroll/jquery.slimscroll.min.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/momentjs/moment.min.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/daterangepicker/daterangepicker.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/tabdrop/bootstrap-tabdrop.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/flot/jquery.flot.js"></script>
+	<script src="assets/js/lib/flot/jquery.flot.tooltip.js"></script>
+	<script src="assets/js/lib/flot/jquery.flot.resize.js"></script>
+	<script src="assets/js/lib/flot/jquery.flot.pie.min.js"></script>
+	<script src="assets/js/lib/flot/jquery.flot.stack.js"></script>
+	<script src="assets/js/lib/jqvmap/jquery.vmap.js"></script>
+	<script src="assets/js/lib/jqvmap/maps/jquery.vmap.world.js"></script>
+	<script src="assets/js/lib/jqvmap/data/jquery.vmap.sampledata.js"></script>
+	<script src="assets/js/lib/sparklines/jquery.sparkline.min.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/w3/w3data.js"></script>
+	<script src="assets/js/scripts.min.js" type="text/javascript"></script>
+
+	<!-- Angular JS -->
+	<script src="assets/js/lib/angular/angular.min.js"></script>
+	<script src="assets/js/lib/angular/angular-animate.min.js"></script>
+	<script src="assets/js/lib/angular/angular-route.min.js"></script>
+
+	<!-- Principal -->
+	<script src="js/app.js"></script>
+
+	<!-- Services -->
+	<script src="js/service/matchService.js"></script>
+
+	<!-- Controllers -->
+	<script src="js/controllers/mainController.js"></script>
+	<script src="js/controllers/dashboardController.js"></script>
+	<script src="js/controllers/usuariosController.js"></script>
+	<script src="js/controllers/relatoriosController.js"></script>
+	<script src="js/controllers/matchListController.js"></script>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-  	<script src="https://code.angularjs.org/1.4.4/angular-route.js"></script>
-	
-	<script src="app/app.js"></script>
 
-	<script src="app/components/home/homeController.js"></script>
-
-	<script src="app/components/matches/matchService.js"></script>
-	<script src="app/components/matches/matchController.js"></script>
-
+	<script>
+		w3IncludeHTML();
+	</script>
 </body>
 </html>

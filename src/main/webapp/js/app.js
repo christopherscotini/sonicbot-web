@@ -1,18 +1,27 @@
-(function() {
-  'use strict';
-  angular.module('feira-app', ['ngRoute']);
 
-  angular.module('feira-app')
-    .run(function($rootScope, $route, $routeParams, $location) {
-      
-      $rootScope.$on('$routeChangeStart',function(evt,next,current){
-        console.log('Nome do Evento:'+evt.name);
-        console.log('Próxima Rota:'+ angular.toJson(next));
-        console.log('Rota Atual:'+ angular.toJson(current));
-      });
-
-      $rootScope.$route = $route;
-      $rootScope.$location = $location;
-      $rootScope.$routeParams = $routeParams;
-    });
-})();
+var app = angular.module("myApp", ["ngRoute", "ngAnimate"]);
+ 
+app.config(function($routeProvider) {
+	$routeProvider
+	.when('/', {
+		templateUrl: 'view/dashboard.html',
+		controller: 'dashboardController',
+		controllerAs: 'dash'
+	})
+	.when('/usuarios', {
+		templateUrl: 'view/usuarios.html',
+		controller: 'usuariosController'
+	})
+	.when('/relatorios', {
+		templateUrl: 'view/relatorios.html',
+		controller: 'relatoriosController'
+	})
+	.when('/matches', {
+		templateUrl: 'view/matchList.html',
+		controller: 'MatchListController',
+		controllerAs: 'match'
+	})
+	.otherwise({
+		redirectTo: '/'
+	});
+});
