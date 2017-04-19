@@ -1,1 +1,1 @@
-web: sh target/sonicbot-web
+web: sh target/bin/webapp
