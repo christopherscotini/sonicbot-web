@@ -26,6 +26,11 @@ app.config(function($routeProvider) {
 		controller: 'TeamCompetitionSeasonController',
 		controllerAs: 'tcs'
 	})
+	.when('/admin/schedule', {
+		templateUrl: 'view/admin/schedule.html',
+		controller: 'ScheduleController',
+		controllerAs: 'sched'
+	})
 	.otherwise({
 		redirectTo: '/'
 	});

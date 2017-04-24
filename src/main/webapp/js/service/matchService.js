@@ -24,7 +24,7 @@
 				 $http.get(vm.url).then(function(response) {
 				deferred.resolve(response.data);
 			}, function(errResponse) {
-				console.error('Error while list games');
+				console.error('[MatchService] Error while list matches');
 				deferred.reject(errResponse);
 			});
 			return deferred.promise;
