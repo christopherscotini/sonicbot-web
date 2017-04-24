@@ -3939,3 +3939,8 @@ select[multiple].input-lg {
     text-align: center;
   }
 }
+
+.ion-ios7-arrow-down:before {
+	content: "\f3d0"
+}
+

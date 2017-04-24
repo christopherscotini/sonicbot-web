@@ -9,6 +9,8 @@
 <link href="favicon1.ico" rel="icon" type="image/x-icon" />
 <link rel="stylesheet" href="assets/css/lib/bootstrap/bootstrap.css" />
 <link rel="stylesheet"
+	href="assets/css/lib/bootstrap/dataTables.min.css" />
+<link rel="stylesheet"
 	href="assets/css/lib/font-awesome/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/lib/ionicons/ionicons.min.css">
 <link rel="stylesheet"
@@ -16,6 +18,7 @@
 <link rel="stylesheet" href="assets/css/lib/jqvmap/jqvmap.css">
 <link rel="stylesheet" href="assets/css/lib/tabdrop/tabdrop.css" />
 <link rel="stylesheet" href="assets/css/styles.css" id="theme-css" />
+
 </head>
 <body ng-app="myApp" ng-controller="mainController">
 
@@ -25,8 +28,35 @@
 		<div class="content-wrapper">
 			<div class="row">
 				<div class="side-nav-content">
-					<div class="left-side-wrapper"
-						w3-include-html="view/layout/left-side-menu.html"></div>
+					<div class="left-side-wrapper">
+						<div class="left-side sticky-left-side">
+							<div class="left-side-inner">
+								<ul class="nav nav-pills nav-stacked custom-nav">
+									<li class="menu-list nav-active current"><a href="#"><i
+											class="ion ion-speedometer"></i> <span>Dashboards</span> <i
+											class="ion ion-ios7-arrow-up pull-right"></i></a></li>
+									<li class="nav-header">Geral</li>
+									<li class="menu-list "><a href=""><i
+											class="ion ion-wrench"></i> <span>Jogos</span> <i
+											class="ion ion-ios7-arrow-down pull-right"></i></a>
+										<ul class="sub-menu-list">
+											<li><a href="#!matches">Jogos do Dia</a></li>
+											<li><a href="ui_buttons.html">Buttons</a></li>
+											<li><a href="ui_tabs.html">Tabs & Accordians</a></li>
+										</ul></li>
+									<li class="menu-list "><a href=""><i
+											class="ion ion-grid"></i> <span>Admin</span> <i
+											class="ion ion-ios7-arrow-down pull-right"></i></a>
+										<ul class="sub-menu-list">
+											<li><a href="#!admin/tcs">Time por Competição/Sessão</a></li>
+											<li><a href="table_basic.html">Basic</a></li>
+											<li><a href="table_responsive.html">Responsive</a></li>
+											<li><a href="table_datatables.html">Datatables</a></li>
+										</ul></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="main-content-wrapper">
 					<div class="ng-view-stage">
@@ -52,11 +82,15 @@
 	<!-- 		</nav> -->
 
 
-
-	<script src="assets/js/lib/jquery/jquery-1.10.2.min.js"
+	<script src="assets/js/lib/jquery/jquery-1.12.4.js"
+		type="text/javascript"></script>
+	<script src="assets/js/lib/jquery/dataTables.min.js"
 		type="text/javascript"></script>
 	<script src="assets/js/lib/bootstrap/bootstrap.min.js"
 		type="text/javascript"></script>
+	<script src="assets/js/lib/bootstrap/dataTables.min.js"
+		type="text/javascript"></script>
+
 	<script src="assets/js/lib/slimscroll/jquery.slimscroll.min.js"
 		type="text/javascript"></script>
 	<script src="assets/js/lib/momentjs/moment.min.js"
@@ -88,6 +122,7 @@
 
 	<!-- Services -->
 	<script src="js/service/matchService.js"></script>
+	<script src="js/service/admin/teamCompetitionSeasonService.js"></script>
 
 	<!-- Controllers -->
 	<script src="js/controllers/mainController.js"></script>
@@ -95,10 +130,12 @@
 	<script src="js/controllers/usuariosController.js"></script>
 	<script src="js/controllers/relatoriosController.js"></script>
 	<script src="js/controllers/matchListController.js"></script>
-	
+	<script src="js/controllers/admin/teamCompetitionSeasonController.js"></script>
+
 
 	<script>
 		w3IncludeHTML();
 	</script>
+	
 </body>
 </html>
