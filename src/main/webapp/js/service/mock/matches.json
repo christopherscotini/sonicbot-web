@@ -1,0 +1,881 @@
+[
+  {
+    "matchResume": {
+      "matchId": 2343524,
+      "linkMatch": "https://www.academiadasapostas.com/stats/match/argentina-stats/prim-b-nacional/juventud-unida-g/all-boys/2343524",
+      "matchStatus": "TERMINADO",
+      "competitionSeason": {
+        "competition": {
+          "id": 88,
+          "name": "Argentina - Primera División",
+          "link": ""
+        },
+        "season": {
+          "id": 12977,
+          "name": "2016/2017"
+        }
+      },
+      "homeTeamMatch": {
+        "team": {
+          "id": 8009,
+          "name": "Juventud UG"
+        },
+        "score": 0
+      },
+      "awayTeamMatch": {
+        "team": {
+          "id": 7026,
+          "name": "All Boys"
+        },
+        "score": 2
+      },
+      "date": "2017-04-20"
+    },
+    "matchstatistics": {
+      "homeTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 30,
+              "size": "LOW"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 66,
+              "size": "LARGE"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 69,
+              "size": "LOW"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 66,
+              "size": "LOW"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 69,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 69,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 30,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 30,
+              "size": "LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 66,
+              "size": "LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 33,
+              "size": "LARGE"
+            }
+          }
+        ],
+        "positions": null
+      },
+      "awayTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 38,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 33,
+              "size": "MEDIUM"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 53,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 33,
+              "size": "LOW"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 69,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 69,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 30,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 38,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 33,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 66,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 33,
+              "size": "LOW"
+            }
+          }
+        ],
+        "positions": null
+      }
+    }
+  },
+  {
+    "matchResume": {
+      "matchId": 2343525,
+      "linkMatch": "https://www.academiadasapostas.com/stats/match/argentina-stats/prim-b-nacional/los-andes/guillermo-brown/2343525",
+      "matchStatus": "TERMINADO",
+      "competitionSeason": {
+        "competition": {
+          "id": 88,
+          "name": "Argentina - Primera División",
+          "link": ""
+        },
+        "season": {
+          "id": 12977,
+          "name": "2016/2017"
+        }
+      },
+      "homeTeamMatch": {
+        "team": {
+          "id": 127,
+          "name": "Los Andes"
+        },
+        "score": 0
+      },
+      "awayTeamMatch": {
+        "team": {
+          "id": 7054,
+          "name": "Guillermo Br"
+        },
+        "score": 0
+      },
+      "date": "2017-04-20"
+    },
+    "matchstatistics": {
+      "homeTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 53,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 76,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 76,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 76,
+              "size": "LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 30,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 15,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 33,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 33,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 0,
+              "size": "NONE"
+            }
+          }
+        ],
+        "positions": null
+      },
+      "awayTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 50,
+              "size": "LARGE"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 33,
+              "size": "MEDIUM"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 66,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 66,
+              "size": "MEDIUM"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 58,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 41,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 50,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 16,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 66,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 66,
+              "size": "LOW"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 33,
+              "size": "MEDIUM"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 0,
+              "size": "NONE"
+            }
+          }
+        ],
+        "positions": null
+      }
+    }
+  },
+  {
+    "matchResume": {
+      "matchId": 2380178,
+      "linkMatch": "https://www.academiadasapostas.com/stats/match/suecia-stats/allsvenskan/elfsborg/orebro/2380178",
+      "matchStatus": "TERMINADO",
+      "competitionSeason": {
+        "competition": {
+          "id": 28,
+          "name": "Suécia - Allsvenskan",
+          "link": ""
+        },
+        "season": {
+          "id": 13293,
+          "name": "2017"
+        }
+      },
+      "homeTeamMatch": {
+        "team": {
+          "id": 2158,
+          "name": "Elfsborg"
+        },
+        "score": 3
+      },
+      "awayTeamMatch": {
+        "team": {
+          "id": 2156,
+          "name": "Orebro SK"
+        },
+        "score": 0
+      },
+      "date": "2017-04-20"
+    },
+    "matchstatistics": {
+      "homeTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 1,
+              "value": 0,
+              "size": "NONE"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 21,
+              "value": 0,
+              "size": "NONE"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          }
+        ],
+        "positions": null
+      },
+      "awayTeamStats": {
+        "fulltimeProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 0,
+              "size": "NONE"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 3,
+              "value": 0,
+              "size": "NONE"
+            }
+          }
+        ],
+        "doubleChanceProbabilities": [
+          {
+            "numberMatchesType": "ALL_GAMES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "numberMatchesType": "LAST3_MATCHES",
+            "stats": {
+              "selectionMarketBetId": 23,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          }
+        ],
+        "goalsProbabilities": [
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "ALL_GAMES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_05",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 5,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "SCORED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          },
+          {
+            "generalConditionType": "CONDITION",
+            "goalMarketType": "OVER_15",
+            "goalType": "CONCEDED",
+            "numberMatchesType": "LAST3_MATCHES",
+            "probability": {
+              "selectionMarketBetId": 7,
+              "value": 100,
+              "size": "VERY_LARGE"
+            }
+          }
+        ],
+        "positions": null
+      }
+    }
+  }
+]

@@ -28,7 +28,7 @@
 			  console.error('Error while fetching Matches');
 		  }).finally(function() {
 		    // called no matter success or failure
-		    vm.loading = false;
+			  vm.loading = false;
 		  });
 		
 

@@ -11,9 +11,22 @@
 
 		var vm = this;
 		vm.listar = listar;
+		
 		function listar() {
+			
+			var urlConn = '';
+			
+			if(appInfoConstant.profile === 'dev2'){
+				urlConn = 'js/service/mock/coupons.json';
+			}else{
+				urlConn = appInfoConstant.urlBase + listCouponsURL;
+			}
+			
+			console.log('appInfoConstant.profile: ' + appInfoConstant.profile);
+			console.log('urlConn: ' + urlConn);
+
 			var deferred = $q.defer();
-				 $http.get(appInfoConstant.urlBase + listCouponsURL).then(function(response) {
+			$http.get(urlConn).then(function(response) {
 				deferred.resolve(response.data);
 			}, function(errResponse) {
 				console.error('[CouponService] Error while list coupons');

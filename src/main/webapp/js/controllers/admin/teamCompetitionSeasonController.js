@@ -11,6 +11,7 @@
 
 		var vm = this;
 		vm.pageTitle = 'Times por Competição/Sessão';
+		vm.loading = true;
 
 		TeamCompetitionSeasonService.listar().then(function(responseData) {
 			vm.tcsList = responseData;
@@ -19,9 +20,13 @@
 					"order" : [ [ 1, "asc" ] ]
 				})
 			}, 10)
-		}, function(errResponse) {
-			console.error('Error while fetching Matches');
-		});
+		}, function ( response ) {
+		    // TODO: handle the error somehow
+			  console.error('Error while fetching tcs');
+		  }).finally(function() {
+		    // called no matter success or failure
+			  vm.loading = false;
+		  });
 
 	}
 })();

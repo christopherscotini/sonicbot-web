@@ -2,7 +2,8 @@
 var app = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 
 //app.constant('appInfoConstant', {urlBase: "https://sbcollector.herokuapp.com/sbcollector/"} );
-app.constant('appInfoConstant', {urlBase: "http://localhost:8082/sbcollector/"} );
+//app.constant('appInfoConstant', {urlBase: "http://localhost:8082/sbcollector/", profile: 'dev1'} );
+app.constant('appInfoConstant', {urlBase: '', profile: 'dev2'} );
 
 app.config(function($routeProvider) {
 	$routeProvider
