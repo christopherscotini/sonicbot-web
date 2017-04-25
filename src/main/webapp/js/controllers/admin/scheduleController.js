@@ -16,19 +16,21 @@
 			alert(couponId);
 		}
 		
-		CouponService.listar().then(function(responseData) {
-			vm.coupons = responseData;
-			setTimeout(function() {
-				$('#couponsTable').DataTable({
-					"order" : [ [ 0, "desc" ] ]
-				})
-
-				vm.loading = false;
-
-			}, 10)
-		}, function(errResponse) {
-			console.error('Error while fetching Matches');
-		});
+		CouponService.listar().then( function ( responseData ) {
+		    vm.coupons = responseData;
+		    setTimeout(function() {
+			    $('#couponsTable').DataTable({
+			    	"order" : [ [ 0, "desc" ] ]
+			    })
+		    }, 10);
+		  }, function ( response ) {
+		    // TODO: handle the error somehow
+			  console.error('Error while fetching Matches');
+		  }).finally(function() {
+		    // called no matter success or failure
+		    vm.loading = false;
+		  });
+		
 
 	}
 })();

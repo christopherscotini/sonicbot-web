@@ -3,19 +3,17 @@
 
 	app.service('CouponService', CouponService);
 	
-	CouponService.$inject = [ '$http', '$q' ]; // Lista de dependências
+	CouponService.$inject = [ '$http', '$q', 'appInfoConstant' ]; // Lista de dependências
 	
-//	var REST_SERVICE_URI = 'https://sbcollector.herokuapp.com/sbcollector/matches/list?date=2017-04-18';
-	var REST_SERVICE_URI = 'http://localhost:8082/sbcollector/coupons/';
+	var listCouponsURL = 'coupons/';
 
-	function CouponService($http, $q) {
+	function CouponService($http, $q, appInfoConstant) {
 
 		var vm = this;
 		vm.listar = listar;
-
 		function listar() {
 			var deferred = $q.defer();
-				 $http.get(REST_SERVICE_URI).then(function(response) {
+				 $http.get(appInfoConstant.urlBase + listCouponsURL).then(function(response) {
 				deferred.resolve(response.data);
 			}, function(errResponse) {
 				console.error('[CouponService] Error while list coupons');
