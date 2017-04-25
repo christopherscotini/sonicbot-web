@@ -5,7 +5,13 @@
 */
 body {
   background-color: #f1f1f1;
-  background: url('../images/pattern_1x.jpg');
+  background: #e5e5e5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+  /*background: url('../images/pattern_1x.jpg');*/
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   width: 100%;
   overflow-y: scroll;
@@ -331,7 +337,7 @@ hr.dark {
 .custom-nav > li > a:hover,
 .custom-nav > li > a:active {
   background-color: transparent;
-  color: #118fdd;
+  color: #5A5AAF;
   border-radius: 0;
   -webkit-border-radius: 0;
 }
@@ -342,7 +348,7 @@ hr.dark {
 .custom-nav > li.active > a:hover,
 .custom-nav > li.active > a:focus {
   background-color: #ffffff;
-  color: #118fdd;
+  color: #5A5AAF;
   border: 1px solid #dadada;
   border-right: 0;
   box-shadow: -3px 3px 3px -1px rgba(0, 0, 0, 0.1);
@@ -353,7 +359,7 @@ hr.dark {
 .custom-nav > li.nav-active > a,
 .custom-nav > li.current > a {
   background-color: transparent;
-  color: #118fdd;
+  color: #27276f;
   font-weight: 700;
 }
 .custom-nav > li.nav-active > ul,
@@ -395,7 +401,7 @@ hr.dark {
 .custom-nav .sub-menu-list > li > a:active,
 .custom-nav .sub-menu-list > li > a:focus {
   text-decoration: none;
-  color: #118fdd;
+  color: #5A5AAF;
   background: transparent;
 }
 .custom-nav .sub-menu-list > li i {
@@ -1042,7 +1048,7 @@ h6 small {
   font-weight: 300;
 }
 a {
-  color: #118fdd;
+  color: #5A5AAF;
   text-decoration: none;
 }
 a:hover,
@@ -3822,8 +3828,8 @@ select[multiple].input-lg {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   color: #ffffff;
-  background-color: #118fdd;
-  border-color: #118fdd;
+  background-color: #5A5AAF
+  border-color: #5A5AAF;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
