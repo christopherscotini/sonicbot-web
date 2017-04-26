@@ -3946,7 +3946,16 @@ select[multiple].input-lg {
   }
 }
 
-.ion-ios7-arrow-down:before {
-	content: "\f3d0"
+#mydiv {
+    text-align: center;
+    height: 87%;
+    background: white;
+    width: 97%;
+    position: absolute;
+    opacity: 0.7;
 }
 
+#mydiv .ajax-loader {
+  display: inline-block;
+  margin-top: 20%;
+}
