@@ -1,0 +1,55 @@
+
+<!-- Breadcumb -->
+<div class="container-fluid container-padded dash-controls">
+
+	<div class="row">
+		<div class="col-md-12">
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Bet Manager</a></li>
+				<li><a href="#">Bankroll</a></li>
+				<li class="active">Criar Aposta</li>
+			</ol>
+		</div>
+	</div>
+</div>
+
+<div class="main-content">
+	<section>
+
+		<!-- Page Title -->
+		<div class="container-fluid container-padded">
+			<div class="row">
+				<div class="col-md-12 page-title">
+					<h2>{{bank.betPageTitle}}</h2>
+					<hr>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container-fluid container-padded">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">{{bank.panelCreateBetTitle}}</h3>
+						</div>
+						<div class="panel-body">
+							<div class="panel-body">
+
+								<label class="col-md-3 control-label">Competição</label>
+								<div class="col-md-9">
+									<select class="form-control" ng-model="bank.competitionSelected"
+									ng-options="comp.name for comp in bank.competitionList track by comp.id">
+									</select>
+								</div>
+{{bank.competitionList}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+</div>

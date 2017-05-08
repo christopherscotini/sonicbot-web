@@ -6,7 +6,7 @@
 <meta name="description" content="">
 <meta name="author" content="Christopher Rozario">
 <title>SonicBot - by Gamaset</title>
-<link href="favicon1.ico" rel="icon" type="image/x-icon" />
+<link href="assets/images/favicon1.ico" rel="icon" type="image/x-icon" />
 <link rel="stylesheet" href="assets/css/lib/bootstrap/bootstrap.css" />
 <link rel="stylesheet"
 	href="assets/css/lib/bootstrap/dataTables.min.css" />
@@ -37,8 +37,14 @@
 											class="ion ion-ios7-arrow-up pull-right"></i></a></li>
 									<li class="nav-header">Geral</li>
 									<li class="menu-list "><a href=""><i
+											class="ion ion-arrow-graph-up-right"></i> <span>Bet Manager</span> <i
+											class="ion ion-ios-arrow-down pull-right"></i></a>
+										<ul class="sub-menu-list">
+											<li><a href="#!betmanaget/bankroll"> Bankroll</a></li>
+										</ul></li>
+									<li class="menu-list "><a href=""><i
 											class="ion ion-wrench"></i> <span>Jogos</span> <i
-											class="ion ion-ios7-arrow-down pull-right"></i></a>
+											class="ion ion-ios-arrow-down pull-right"></i></a>
 										<ul class="sub-menu-list">
 											<li><a href="#!matches">Jogos do Dia</a></li>
 											<li><a href="ui_buttons.html">Buttons</a></li>
@@ -46,7 +52,7 @@
 										</ul></li>
 									<li class="menu-list "><a href=""><i
 											class="ion ion-grid"></i> <span>Admin</span> <i
-											class="ion ion-ios7-arrow-down pull-right"></i></a>
+											class="ion ion-ios-arrow-down pull-right"></i></a>
 										<ul class="sub-menu-list">
 											<li><a href="#!admin/tcs">Time por Competição/Sessão</a></li>
 											<li><a href="#!admin/schedule">Schedule</a></li>
@@ -120,6 +126,7 @@
 	<script src="js/app.js"></script>
 
 	<!-- Services -->
+	<script src="js/service/competitionService.js"></script>
 	<script src="js/service/couponService.js"></script>
 	<script src="js/service/matchService.js"></script>
 	<script src="js/service/teamCompetitionSeasonService.js"></script>
@@ -127,13 +134,12 @@
 	<!-- Controllers -->
 	<script src="js/controllers/mainController.js"></script>
 	<script src="js/controllers/dashboardController.js"></script>
-	<script src="js/controllers/usuariosController.js"></script>
-	<script src="js/controllers/relatoriosController.js"></script>
 	<script src="js/controllers/matchListController.js"></script>
 	
 	<script src="js/controllers/admin/teamCompetitionSeasonController.js"></script>
 	<script src="js/controllers/admin/scheduleController.js"></script>
 
+	<script src="js/controllers/betmanager/bankrollController.js"></script>
 
 	<script>
 		w3IncludeHTML();

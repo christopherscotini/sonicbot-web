@@ -3,9 +3,9 @@
 
 	app.controller('ScheduleController', ScheduleController);
 
-	ScheduleController.$inject = [ 'CouponService' ];
+	ScheduleController.$inject = [ 'CouponFactory' ];
 
-	function ScheduleController(CouponService) {
+	function ScheduleController(CouponFactory) {
 
 		var vm = this;
 		vm.update = update;
@@ -16,7 +16,7 @@
 			alert(couponId);
 		}
 		
-		CouponService.listar().then( function ( responseData ) {
+		CouponFactory.getCoupons().then( function ( responseData ) {
 		    vm.coupons = responseData;
 		    setTimeout(function() {
 			    $('#couponsTable').DataTable({

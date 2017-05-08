@@ -2,8 +2,8 @@
 var app = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 
 //app.constant('appInfoConstant', {urlBase: "https://sbcollector.herokuapp.com/sbcollector/"} );
-//app.constant('appInfoConstant', {urlBase: "http://localhost:8082/sbcollector/", profile: 'dev1'} );
-app.constant('appInfoConstant', {urlBase: '', profile: 'dev2'} );
+app.constant('appInfoConstant', {urlBase: "http://localhost:8082/sbcollector/", profile: 'dev1'} );
+//app.constant('appInfoConstant', {urlBase: '', profile: 'dev2'} );
 
 app.config(function($routeProvider) {
 	$routeProvider
@@ -34,6 +34,16 @@ app.config(function($routeProvider) {
 		templateUrl: 'view/admin/schedule.html',
 		controller: 'ScheduleController',
 		controllerAs: 'sched'
+	})
+	.when('/betmanaget/bankroll', {
+		templateUrl: 'view/betmanager/bankroll.html',
+		controller: 'BankrollController',
+		controllerAs: 'bank'
+	})
+	.when('/betmanaget/bankroll/createbet', {
+		templateUrl: 'view/betmanager/createbet.html',
+		controller: 'BankrollController',
+		controllerAs: 'bank'
 	})
 	.otherwise({
 		redirectTo: '/'
