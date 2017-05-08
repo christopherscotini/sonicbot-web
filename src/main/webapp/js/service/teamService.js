@@ -1,25 +1,23 @@
 (function() {
 	'use strict';
 
-	app.service('CompetitionService', CompetitionService);
+	app.service('TeamService', TeamService);
 	
-	CompetitionService.$inject = [ '$http', '$q', 'appInfoConstant' ]; // Lista de dependências
+	TeamService.$inject = [ '$http', '$q', 'appInfoConstant' ]; // Lista de dependências
 	
-	var listCompetitionURL = 'competitions/';
-
-	function CompetitionService($http, $q, appInfoConstant) {
+	function TeamService($http, $q, appInfoConstant) {
 
 		var vm = this;
 		vm.listar = listar;
 		
-		function listar() {
+		function listar(competitionId) {
 			
 			var urlConn = '';
 			
 			if(appInfoConstant.profile === 'dev2'){
-				urlConn = 'js/service/mock/competitions.json';
+				urlConn = 'js/service/mock/teams.json';
 			}else{
-				urlConn = appInfoConstant.urlBase + listCompetitionURL;
+				urlConn = appInfoConstant.urlBase + 'competitions/' + competitionId + '/teams';
 			}
 			
 			console.log('appInfoConstant.profile: ' + appInfoConstant.profile);
@@ -29,7 +27,7 @@
 			$http.get(urlConn).then(function(response) {
 				deferred.resolve(response.data);
 			}, function(errResponse) {
-				console.error('[CompetitionService] Error while list competitions');
+				console.error('[TeamService] Error while list teams');
 				deferred.reject(errResponse);
 			});
 			return deferred.promise;

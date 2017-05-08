@@ -7,7 +7,7 @@
 			<ol class="breadcrumb">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Bet Manager</a></li>
-				<li><a href="#">Bankroll</a></li>
+				<li><a href="#!betmanaget/bankroll">Bankroll</a></li>
 				<li class="active">Criar Aposta</li>
 			</ol>
 		</div>
@@ -21,7 +21,7 @@
 		<div class="container-fluid container-padded">
 			<div class="row">
 				<div class="col-md-12 page-title">
-					<h2>{{bank.betPageTitle}}</h2>
+					<h2>{{bank.pageTitle}}</h2>
 					<hr>
 				</div>
 			</div>
@@ -33,23 +33,85 @@
 				<div class="col-md-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">{{bank.panelCreateBetTitle}}</h3>
+							<h3 class="panel-title">{{bank.panel1Title}}</h3>
+						</div>
+						<div id="mydiv">
+							<img src="assets/images/squares-loading.gif" class="ajax-loader"
+								ng-show="bet.loading" />
 						</div>
 						<div class="panel-body">
-							<div class="panel-body">
 
-								<label class="col-md-3 control-label">Competição</label>
-								<div class="col-md-9">
-									<select class="form-control" ng-model="bank.competitionSelected"
-									ng-options="comp.name for comp in bank.competitionList track by comp.id">
-									</select>
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-3 control-label">Bankroll</label>
+									<div class="col-md-9">{{bet.bankrollSelected.id}} -
+										{{bet.bankrollSelected.description}}</div>
 								</div>
-{{bank.competitionList}}
 							</div>
+
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-3 control-label">Data</label>
+									<div class="col-md-9">
+										<div class="input-group col-md-6">
+											<input type="text" name="matchDay" id="matchDay"
+												class="form-control active" value="03/18/2013" readonly="">
+											<span class="input-group-addon"><i
+												class="fa fa-calendar"></i></span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-3 control-label">Valor Apostado</label>
+									<div class="input-group col-md-6">
+										<input type="text" name="field" ng-model="bet.valorapostado" ui-money-mask="3">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-3 control-label">Competição</label>
+									<div class="col-md-6">
+										<select class="form-control"
+											ng-model="bet.competitionSelected"
+											ng-options="comp.name for comp in bet.competitionList track by comp.id"
+											ng-change="bet.listTeams()">
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-4">
+										<label class="col-md-3 control-label">Mandante</label> <select
+											class="form-control" ng-model="bet.homeTeamSelected"
+											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id"
+											ng-change="bet.test()">
+										</select>
+									</div>
+									<div class="col-md-4" style="text-align: center;">
+										<img alt="vs" src="assets/images/versus-image.png"
+											height="52.88">
+									</div>
+									<div class="col-md-4">
+										<label class="col-md-3 control-label">Visitante</label> <select
+											class="form-control" ng-model="bet.awayTeamSelected"
+											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id">
+										</select>
+									</div>
+								</div>
+							</div>
+
+
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 	</section>
 
 </div>

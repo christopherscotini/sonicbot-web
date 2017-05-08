@@ -1,0 +1,647 @@
+[
+	{
+		"id": 11,
+		"name": "Alemanha - 2. Bundesliga",
+		"url": "",
+		"compIdbetOdd": 436,
+		"flag": {
+			"id": 2,
+			"name": "Alemanha - Bundesliga.gif",
+			"urlImage": "/resources/images/flags/175.gif"
+		},
+		"country": {
+			"id": 1,
+			"name": "Alemanha"
+		}
+	},
+	{
+		"id": 9,
+		"name": "Alemanha - Bundesliga",
+		"url": "",
+		"compIdbetOdd": 515,
+		"flag": {
+			"id": 1,
+			"name": "Alemanha - 2. Bundesliga.gif",
+			"urlImage": "/resources/images/flags/174.gif"
+		},
+		"country": {
+			"id": 1,
+			"name": "Alemanha"
+		}
+	},
+	{
+		"id": 87,
+		"name": "Argentina - Prim B Nacional",
+		"url": "",
+		"compIdbetOdd": 1821,
+		"flag": {
+			"id": 3,
+			"name": "Argentina - Primeira B Nacional.gif",
+			"urlImage": "/resources/images/flags/176.gif"
+		},
+		"country": {
+			"id": 2,
+			"name": "Argentina"
+		}
+	},
+	{
+		"id": 88,
+		"name": "Argentina - Primera División",
+		"url": "",
+		"compIdbetOdd": 56,
+		"flag": {
+			"id": 4,
+			"name": "Argentina - Primeira Divisão.gif",
+			"urlImage": "/resources/images/flags/177.gif"
+		},
+		"country": {
+			"id": 2,
+			"name": "Argentina"
+		}
+	},
+	{
+		"id": 24,
+		"name": "Bélgica - Pro League",
+		"url": "",
+		"compIdbetOdd": 108,
+		"flag": {
+			"id": 7,
+			"name": "Bélgica - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/180.gif"
+		},
+		"country": {
+			"id": 4,
+			"name": "Bélgica"
+		}
+	},
+	{
+		"id": 26,
+		"name": "Brasil - Série A",
+		"url": "",
+		"compIdbetOdd": 211,
+		"flag": {
+			"id": 5,
+			"name": "Brasil - Série A.gif",
+			"urlImage": "/resources/images/flags/178.gif"
+		},
+		"country": {
+			"id": 3,
+			"name": "Brasil"
+		}
+	},
+	{
+		"id": 89,
+		"name": "Brasil - Série B",
+		"url": "",
+		"compIdbetOdd": 207,
+		"flag": {
+			"id": 6,
+			"name": "Brasil - Série B.gif",
+			"urlImage": "/resources/images/flags/179.gif"
+		},
+		"country": {
+			"id": 3,
+			"name": "Brasil"
+		}
+	},
+	{
+		"id": 59,
+		"name": "Bulgária - A PFG",
+		"url": "",
+		"compIdbetOdd": 165,
+		"flag": {
+			"id": 41,
+			"name": "Bulgária - A PFG Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/218.gif"
+		},
+		"country": {
+			"id": 28,
+			"name": "Bulgária"
+		}
+	},
+	{
+		"id": 51,
+		"name": "China - CSL Super Liga",
+		"url": "",
+		"compIdbetOdd": 443,
+		"flag": {
+			"id": 8,
+			"name": "China - CSL Super Liga.gif",
+			"urlImage": "/resources/images/flags/181.gif"
+		},
+		"country": {
+			"id": 5,
+			"name": "China"
+		}
+	},
+	{
+		"id": 136,
+		"name": "Coreia do Sul - Primeira Liga",
+		"url": "",
+		"compIdbetOdd": 326,
+		"flag": {
+			"id": 9,
+			"name": "Coreia do Sul - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/183.gif"
+		},
+		"country": {
+			"id": 6,
+			"name": "Coreia do Sul"
+		}
+	},
+	{
+		"id": 61,
+		"name": "Croácia - 1. HNL Primeira Liga",
+		"url": "",
+		"compIdbetOdd": 57,
+		"flag": {
+			"id": 42,
+			"name": "Croácia - 1. HNL Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/220.gif"
+		},
+		"country": {
+			"id": 29,
+			"name": "Croácia"
+		}
+	},
+	{
+		"id": 30,
+		"name": "Dinamarca - Super Liga",
+		"url": "",
+		"compIdbetOdd": 375,
+		"flag": {
+			"id": 10,
+			"name": "Dinamarca - Super Liga.gif",
+			"urlImage": "/resources/images/flags/184.gif"
+		},
+		"country": {
+			"id": 7,
+			"name": "Dinamarca"
+		}
+	},
+	{
+		"id": 43,
+		"name": "Escócia - Premiership",
+		"url": "",
+		"compIdbetOdd": 407,
+		"flag": {
+			"id": 11,
+			"name": "Escócia - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/185.gif"
+		},
+		"country": {
+			"id": 8,
+			"name": "Escócia"
+		}
+	},
+	{
+		"id": 7,
+		"name": "Espanha - Primera División",
+		"url": "",
+		"compIdbetOdd": 201,
+		"flag": {
+			"id": 12,
+			"name": "Espanha - Primeira Divisão.gif",
+			"urlImage": "/resources/images/flags/186.gif"
+		},
+		"country": {
+			"id": 9,
+			"name": "Espanha"
+		}
+	},
+	{
+		"id": 12,
+		"name": "Espanha - Segunda División",
+		"url": "",
+		"compIdbetOdd": 125,
+		"flag": {
+			"id": 13,
+			"name": "Espanha - Segunda Divisão.gif",
+			"urlImage": "/resources/images/flags/187.gif"
+		},
+		"country": {
+			"id": 9,
+			"name": "Espanha"
+		}
+	},
+	{
+		"id": 33,
+		"name": "Estados Unidos da América - MLS",
+		"url": "",
+		"compIdbetOdd": 231,
+		"flag": {
+			"id": 14,
+			"name": "Estados Unidos da América - MLS.gif",
+			"urlImage": "/resources/images/flags/188.gif"
+		},
+		"country": {
+			"id": 10,
+			"name": "Estados Unidos da América"
+		}
+	},
+	{
+		"id": 16,
+		"name": "França - Ligue 1",
+		"url": "",
+		"compIdbetOdd": 111,
+		"flag": {
+			"id": 15,
+			"name": "França - Ligue 1.gif",
+			"urlImage": "/resources/images/flags/189.gif"
+		},
+		"country": {
+			"id": 11,
+			"name": "França"
+		}
+	},
+	{
+		"id": 17,
+		"name": "França - Ligue 2",
+		"url": "",
+		"compIdbetOdd": 593,
+		"flag": {
+			"id": 16,
+			"name": "França - Ligue 2.gif",
+			"urlImage": "/resources/images/flags/190.gif"
+		},
+		"country": {
+			"id": 11,
+			"name": "França"
+		}
+	},
+	{
+		"id": 107,
+		"name": "Grécia - Football League",
+		"url": "",
+		"compIdbetOdd": 2163,
+		"flag": {
+			"id": 17,
+			"name": "Grécia - Segunda Liga.gif",
+			"urlImage": "/resources/images/flags/191.gif"
+		},
+		"country": {
+			"id": 12,
+			"name": "Grécia"
+		}
+	},
+	{
+		"id": 108,
+		"name": "Grécia - Super League",
+		"url": "",
+		"compIdbetOdd": 72,
+		"flag": {
+			"id": 18,
+			"name": "Grécia - Super Liga.gif",
+			"urlImage": "/resources/images/flags/192.gif"
+		},
+		"country": {
+			"id": 12,
+			"name": "Grécia"
+		}
+	},
+	{
+		"id": 5,
+		"name": "Holanda - Eerste Divisie",
+		"url": "",
+		"compIdbetOdd": 723,
+		"flag": {
+			"id": 20,
+			"name": "Holanda - Segunda Liga.gif",
+			"urlImage": "/resources/images/flags/194.gif"
+		},
+		"country": {
+			"id": 13,
+			"name": "Holanda"
+		}
+	},
+	{
+		"id": 1,
+		"name": "Holanda - Eredivisie",
+		"url": "",
+		"compIdbetOdd": 98,
+		"flag": {
+			"id": 19,
+			"name": "Holanda - Eredivisie.gif",
+			"urlImage": "/resources/images/flags/193.gif"
+		},
+		"country": {
+			"id": 13,
+			"name": "Holanda"
+		}
+	},
+	{
+		"id": 67,
+		"name": "Hungria - NB I",
+		"url": "",
+		"compIdbetOdd": 178,
+		"flag": {
+			"id": 21,
+			"name": "Hungria - NB I Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/195.gif"
+		},
+		"country": {
+			"id": 14,
+			"name": "Hungria"
+		}
+	},
+	{
+		"id": 70,
+		"name": "Inglaterra - Championship",
+		"url": "",
+		"compIdbetOdd": 667,
+		"flag": {
+			"id": 23,
+			"name": "Inglaterra - 3. League One.gif",
+			"urlImage": "/resources/images/flags/197.gif"
+		},
+		"country": {
+			"id": 15,
+			"name": "Inglaterra"
+		}
+	},
+	{
+		"id": 15,
+		"name": "Inglaterra - League One",
+		"url": "",
+		"compIdbetOdd": 599,
+		"flag": {
+			"id": 24,
+			"name": "Inglaterra - Premier League.gif",
+			"urlImage": "/resources/images/flags/198.gif"
+		},
+		"country": {
+			"id": 15,
+			"name": "Inglaterra"
+		}
+	},
+	{
+		"id": 8,
+		"name": "Inglaterra - Premier League",
+		"url": "",
+		"compIdbetOdd": 404,
+		"flag": {
+			"id": 22,
+			"name": "Inglaterra - 2. Championship.gif",
+			"urlImage": "/resources/images/flags/196.gif"
+		},
+		"country": {
+			"id": 15,
+			"name": "Inglaterra"
+		}
+	},
+	{
+		"id": 34,
+		"name": "Irlanda - Premier Division",
+		"url": "",
+		"compIdbetOdd": 175,
+		"flag": {
+			"id": 25,
+			"name": "Irlanda - Primeira Divisão.gif",
+			"urlImage": "/resources/images/flags/199.gif"
+		},
+		"country": {
+			"id": 16,
+			"name": "Irlanda"
+		}
+	},
+	{
+		"id": 13,
+		"name": "Itália - Série A",
+		"url": "",
+		"compIdbetOdd": 204,
+		"flag": {
+			"id": 26,
+			"name": "Itália - Série A.gif",
+			"urlImage": "/resources/images/flags/200.gif"
+		},
+		"country": {
+			"id": 17,
+			"name": "Itália"
+		}
+	},
+	{
+		"id": 14,
+		"name": "Itália - Série B",
+		"url": "",
+		"compIdbetOdd": 594,
+		"flag": {
+			"id": 27,
+			"name": "Itália - Série B.gif",
+			"urlImage": "/resources/images/flags/201.gif"
+		},
+		"country": {
+			"id": 17,
+			"name": "Itália"
+		}
+	},
+	{
+		"id": 109,
+		"name": "Japão - J1 League",
+		"url": "",
+		"compIdbetOdd": 673,
+		"flag": {
+			"id": 28,
+			"name": "Japão - J1 Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/202.gif"
+		},
+		"country": {
+			"id": 18,
+			"name": "Japão"
+		}
+	},
+	{
+		"id": 110,
+		"name": "Japão - J2 League",
+		"url": "",
+		"compIdbetOdd": 313,
+		"flag": {
+			"id": 29,
+			"name": "Japão - J2 Segunda Liga.gif",
+			"urlImage": "/resources/images/flags/203.gif"
+		},
+		"country": {
+			"id": 18,
+			"name": "Japão"
+		}
+	},
+	{
+		"id": 155,
+		"name": "México - Liga MX",
+		"url": "",
+		"compIdbetOdd": 999999,
+		"flag": {
+			"id": 43,
+			"name": "México - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/129.gif"
+		},
+		"country": {
+			"id": 30,
+			"name": "México"
+		}
+	},
+	{
+		"id": 29,
+		"name": "Noruega - Eliteserien",
+		"url": "",
+		"compIdbetOdd": 516,
+		"flag": {
+			"id": 30,
+			"name": "Noruega - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/204.gif"
+		},
+		"country": {
+			"id": 19,
+			"name": "Noruega"
+		}
+	},
+	{
+		"id": 119,
+		"name": "Polónia - Ekstraklasa",
+		"url": "",
+		"compIdbetOdd": 173,
+		"flag": {
+			"id": 31,
+			"name": "Polónia - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/205.gif"
+		},
+		"country": {
+			"id": 20,
+			"name": "Polónia"
+		}
+	},
+	{
+		"id": 63,
+		"name": "Portugal - Primeira Liga",
+		"url": "",
+		"compIdbetOdd": 92,
+		"flag": {
+			"id": 32,
+			"name": "Portugal - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/206.gif"
+		},
+		"country": {
+			"id": 21,
+			"name": "Portugal"
+		}
+	},
+	{
+		"id": 100,
+		"name": "Portugal - Segunda Liga",
+		"url": "",
+		"compIdbetOdd": 160,
+		"flag": {
+			"id": 33,
+			"name": "Portugal - Segunda Liga.gif",
+			"urlImage": "/resources/images/flags/207.gif"
+		},
+		"country": {
+			"id": 21,
+			"name": "Portugal"
+		}
+	},
+	{
+		"id": 82,
+		"name": "República Checa - Czech Liga",
+		"url": "",
+		"compIdbetOdd": 94,
+		"flag": {
+			"id": 34,
+			"name": "República Checa - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/208.gif"
+		},
+		"country": {
+			"id": 22,
+			"name": "República Checa"
+		}
+	},
+	{
+		"id": 121,
+		"name": "Rússia - FNL",
+		"url": "",
+		"compIdbetOdd": 792,
+		"flag": {
+			"id": 35,
+			"name": "Rússia - FNL Segunda Liga.gif",
+			"urlImage": "/resources/images/flags/210.gif"
+		},
+		"country": {
+			"id": 23,
+			"name": "Rússia"
+		}
+	},
+	{
+		"id": 122,
+		"name": "Rússia - Premier League",
+		"url": "",
+		"compIdbetOdd": 530,
+		"flag": {
+			"id": 36,
+			"name": "Rússia - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/211.gif"
+		},
+		"country": {
+			"id": 23,
+			"name": "Rússia"
+		}
+	},
+	{
+		"id": 28,
+		"name": "Suécia - Allsvenskan",
+		"url": "",
+		"compIdbetOdd": 491,
+		"flag": {
+			"id": 37,
+			"name": "Suécia - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/212.gif"
+		},
+		"country": {
+			"id": 24,
+			"name": "Suécia"
+		}
+	},
+	{
+		"id": 27,
+		"name": "Suíça - Super League",
+		"url": "",
+		"compIdbetOdd": 595,
+		"flag": {
+			"id": 38,
+			"name": "Suíça - Super Liga.gif",
+			"urlImage": "/resources/images/flags/213.gif"
+		},
+		"country": {
+			"id": 25,
+			"name": "Suíça"
+		}
+	},
+	{
+		"id": 19,
+		"name": "Turquia - Super Liga",
+		"url": "",
+		"compIdbetOdd": 97,
+		"flag": {
+			"id": 39,
+			"name": "Turquia - Super Liga.gif",
+			"urlImage": "/resources/images/flags/214.gif"
+		},
+		"country": {
+			"id": 26,
+			"name": "Turquia"
+		}
+	},
+	{
+		"id": 125,
+		"name": "Ucrânia - Premier League",
+		"url": "",
+		"compIdbetOdd": 409,
+		"flag": {
+			"id": 40,
+			"name": "Ucrânia - Primeira Liga.gif",
+			"urlImage": "/resources/images/flags/215.gif"
+		},
+		"country": {
+			"id": 27,
+			"name": "Ucrânia"
+		}
+	}
+]

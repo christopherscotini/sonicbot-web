@@ -34,30 +34,40 @@
 						<div class="panel-heading">
 							<h3 class="panel-title">{{bank.tableTitle}}</h3>
 						</div>
+						<!-- 						<div id="mydiv"> -->
+						<!-- 						    <img src="assets/images/squares-loading.gif" class="ajax-loader" ng-show="bank.loading"/> -->
+						<!-- 						</div> -->
 						<div class="panel-body">
 							<div class="panel-body">
-								<table id="tcsTable" class="table table-striped table-bordered">
+								<table id="bankrollTable"
+									class="table table-striped table-bordered">
 									<thead>
 										<tr>
 											<th>#</th>
 											<th>Bankroll</th>
 											<th>Criado em</th>
 											<th>Saldo</th>
+											<th>Lucro</th>
+											<th>Ações</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr ng-repeat="b in bank.bankrolls">
 											<td>{{b.id}}</td>
-											<td>{{b.id}}</td>
-											<td>{{b.id}}</td>
-											<td>{{b.id}}</td>
+											<td>{{b.description}}</td>
+											<td>{{b.createdDate}}</td>
+											<td>{{ b.actualBankrollValue | currency }}</td>
+											<td>{{ b.yieldValue | currency }}</td>
+											<td>
+												<button class="btn btn-labeled btn-info"
+													ng-click="bank.insertNavigation( b.id );">
+													Criar<span class="btn-label btn-label-right"><i
+														class="glyphicon glyphicon-arrow-right"></i></span>
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>
-								<button class="btn btn-labeled btn-info" ng-click="bank.insertNavigation()" >
-									Criar<span class="btn-label btn-label-right"><i
-										class="glyphicon glyphicon-arrow-right"></i></span>
-								</button>
 							</div>
 						</div>
 					</div>

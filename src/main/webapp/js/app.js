@@ -40,10 +40,10 @@ app.config(function($routeProvider) {
 		controller: 'BankrollController',
 		controllerAs: 'bank'
 	})
-	.when('/betmanaget/bankroll/createbet', {
+	.when('/betmanaget/bankroll/:bankrollId/createbet', {
 		templateUrl: 'view/betmanager/createbet.html',
-		controller: 'BankrollController',
-		controllerAs: 'bank'
+		controller: 'CreateBetController',
+		controllerAs: 'bet'
 	})
 	.otherwise({
 		redirectTo: '/'

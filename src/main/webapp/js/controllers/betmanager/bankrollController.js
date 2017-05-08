@@ -3,32 +3,30 @@
 
 	app.controller('BankrollController', BankrollController);
 
-	BankrollController.$inject = [ '$timeout', '$location', 'CompetitionService' ];
+	BankrollController.$inject = [ '$timeout', '$location', 'BankrollService' ];
 
-	function BankrollController($timeout, $location, CompetitionService) {
+	function BankrollController($timeout, $location, BankrollService) {
 
 		var vm = this;
 		vm.pageTitle = 'Bankroll';
 		vm.tableTitle = 'Bankrolls';
-		vm.bankrolls;
+		vm.bankrolls = [];
+		vm.loading = true;
 
-		// createbet.html
-		vm.betPageTitle = 'Criar Aposta';
-		vm.panelCreateBetTitle = 'Criando...';
-		vm.competitionList = [];
-		vm.competitionSelected = null;
+		BankrollService.listar().then(function(responseData) {
+			vm.bankrolls = responseData;
+			setTimeout(function() {
+				$('#bankrollTable').DataTable();
+			}, 1)
+		}, function ( responseError ) {
+			  console.error('Error while fetching bankrolls: '+responseError);
+		  }).finally(function() {
+			  vm.loading = false;
+		  });
 		
 		
-		vm.insertNavigation = function (){
-			CompetitionService.listar().then(function(responseData) {
-				vm.competitionList = responseData;
-				alert(vm.competitionList);
-			}).finally(function() {
-				$timeout(function(){
-					$location.path( '/betmanaget/bankroll/createbet' );
-				});
-			});
-
+		vm.insertNavigation = function (bankrollId){
+			$location.path( '/betmanaget/bankroll/'+bankrollId+'/createbet' );
 		}
 		
 	}
