@@ -20,6 +20,8 @@
 		vm.homeTeamSelected = null;
 		vm.awayTeamSelected = null;
 		
+		vm.valorApostado = null;
+		
 		console.log('bankrollId: '+$routeParams.bankrollId);
 		
 		BankrollService.buscar($routeParams.bankrollId).then(function(responseData) {

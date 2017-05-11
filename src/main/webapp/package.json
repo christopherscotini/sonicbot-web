@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/christopherscotini/sonicbot-web/issues"
   },
-  "homepage": "https://github.com/christopherscotini/sonicbot-web#readme"
+  "homepage": "https://github.com/christopherscotini/sonicbot-web#readme",
+  "dependencies": {
+    "angular-input-masks": "^2.5.0"
+  }
 }

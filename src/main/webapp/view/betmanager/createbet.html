@@ -44,14 +44,17 @@
 							<div class="form-group">
 								<div class="row">
 									<label class="col-md-3 control-label">Bankroll</label>
-									<div class="col-md-9">{{bet.bankrollSelected.id}} -
-										{{bet.bankrollSelected.description}}</div>
+									<div class="col-md-9">
+										{{bet.bankrollSelected.id}} - {{bet.bankrollSelected.description}}
+									</div>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<div class="row">
-									<label class="col-md-3 control-label">Data</label>
+									<div class="col-md-3">
+										<label class="control-label">Data</label>
+									</div>
 									<div class="col-md-9">
 										<div class="input-group col-md-6">
 											<input type="text" name="matchDay" id="matchDay"
@@ -65,16 +68,10 @@
 
 							<div class="form-group">
 								<div class="row">
-									<label class="col-md-3 control-label">Valor Apostado</label>
-									<div class="input-group col-md-6">
-										<input type="text" name="field" ng-model="bet.valorapostado" ui-money-mask="3">
+									<div class="col-md-3">
+										<label class="control-label">Competição</label>
 									</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="row">
-									<label class="col-md-3 control-label">Competição</label>
-									<div class="col-md-6">
+									<div class="col-md-9">
 										<select class="form-control"
 											ng-model="bet.competitionSelected"
 											ng-options="comp.name for comp in bet.competitionList track by comp.id"
@@ -84,24 +81,35 @@
 								</div>
 							</div>
 
+<!-- 							COMBO DOS TIMES -->
 							<div class="form-group">
 								<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-5">
 										<label class="col-md-3 control-label">Mandante</label> <select
 											class="form-control" ng-model="bet.homeTeamSelected"
 											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id"
 											ng-change="bet.test()">
 										</select>
 									</div>
-									<div class="col-md-4" style="text-align: center;">
+									<div class="col-md-2" style="text-align: center;bottom:-20px">
 										<img alt="vs" src="assets/images/versus-image.png"
-											height="52.88">
+											height="20">
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-5">
 										<label class="col-md-3 control-label">Visitante</label> <select
 											class="form-control" ng-model="bet.awayTeamSelected"
 											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id">
 										</select>
+									</div>
+								</div>
+							</div>
+							
+<!-- 							CAMPO: VALOR APOSTADO -->
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-3 control-label">Bankroll</label>
+									<div class="col-md-9">
+										<input type="text" name="field" ng-model="bet.valorApostado" ui-money-mask>
 									</div>
 								</div>
 							</div>
