@@ -1,5 +1,5 @@
 
-var app = angular.module("myApp", ['ngRoute', 'ngAnimate', 'ui.utils.masks']);
+var app = angular.module("myApp", ['ngRoute', 'ngAnimate', 'ngCurrencyMask', 'daterangepicker']);
 
 //app.constant('appInfoConstant', {urlBase: "https://sbcollector.herokuapp.com/sbcollector/"} );
 app.constant('appInfoConstant', {urlBase: "http://localhost:8082/sbcollector/", profile: 'dev1'} );

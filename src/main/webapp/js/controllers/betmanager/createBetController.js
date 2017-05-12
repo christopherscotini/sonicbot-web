@@ -20,7 +20,10 @@
 		vm.homeTeamSelected = null;
 		vm.awayTeamSelected = null;
 		
-		vm.valorApostado = null;
+		vm.betDate = {startDate: moment()};
+		vm.marketSelected = null;
+		vm.betAmount = null;
+		vm.profitValue = null;
 		
 		console.log('bankrollId: '+$routeParams.bankrollId);
 		
