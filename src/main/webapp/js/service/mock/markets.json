@@ -1,0 +1,155 @@
+[ {
+	"id" : 1,
+	"name" : "Home Team",
+	"marketBet" : {
+		"id" : 1,
+		"name" : "Fulltime Result"
+	}
+}, {
+	"id" : 2,
+	"name" : "Draw",
+	"marketBet" : {
+		"id" : 1,
+		"name" : "Fulltime Result"
+	}
+}, {
+	"id" : 3,
+	"name" : "Away Team",
+	"marketBet" : {
+		"id" : 1,
+		"name" : "Fulltime Result"
+	}
+}, {
+	"id" : 5,
+	"name" : "Over 0.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 6,
+	"name" : "Under 0.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 7,
+	"name" : "Over 1.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 8,
+	"name" : "Under 1.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 9,
+	"name" : "Over 2.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 10,
+	"name" : "Under 2.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 11,
+	"name" : "Over 3.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 12,
+	"name" : "Under 3.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 13,
+	"name" : "Over 4.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 14,
+	"name" : "Under 4.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 15,
+	"name" : "Over 5.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 16,
+	"name" : "Under 5.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 17,
+	"name" : "Over 6.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 18,
+	"name" : "Under 6.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 19,
+	"name" : "Over 7.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 20,
+	"name" : "Under 7.5",
+	"marketBet" : {
+		"id" : 3,
+		"name" : "Double Chance"
+	}
+}, {
+	"id" : 21,
+	"name" : "Home Team or Draw",
+	"marketBet" : {
+		"id" : 2,
+		"name" : "Gols"
+	}
+}, {
+	"id" : 22,
+	"name" : "Home Team or Away Team",
+	"marketBet" : {
+		"id" : 2,
+		"name" : "Gols"
+	}
+}, {
+	"id" : 23,
+	"name" : "Away Team or Draw",
+	"marketBet" : {
+		"id" : 2,
+		"name" : "Gols"
+	}
+} ]

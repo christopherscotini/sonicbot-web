@@ -3,9 +3,9 @@
 
 	app.controller('CreateBetController', CreateBetController);
 
-	CreateBetController.$inject = [ '$timeout', '$location', '$routeParams', 'CompetitionService', 'BankrollService', 'TeamService' ];
+	CreateBetController.$inject = [ '$timeout', '$location', '$routeParams', 'CompetitionService', 'BankrollService', 'TeamService', 'MarketService', 'BetBankrollService' ];
 
-	function CreateBetController($timeout, $location, $routeParams, CompetitionService, BankrollService, TeamService) {
+	function CreateBetController($timeout, $location, $routeParams, CompetitionService, BankrollService, TeamService, MarketService, BetBankrollService) {
 
 		var vm = this;
 		vm.pageTitle = 'Adicionar Aposta';
@@ -20,15 +20,20 @@
 		vm.homeTeamSelected = null;
 		vm.awayTeamSelected = null;
 		
-		vm.betDate = {startDate: moment()};
+		vm.betStatusList = ['IN_PLAY', 'WON', 'LOST'];
+		vm.betStatusSelected = null;
+		
+		vm.marketList = [];
 		vm.marketSelected = null;
+
+		vm.betDate = {startDate: moment()};
 		vm.betAmount = null;
 		vm.profitValue = null;
+		vm.betPercentualBankroll = 0;
+		vm.percentROI = 0;
 		
-		console.log('bankrollId: '+$routeParams.bankrollId);
 		
 		BankrollService.buscar($routeParams.bankrollId).then(function(responseData) {
-			console.log('lendo o bankroll..');
 			vm.bankrollSelected = responseData;
 		}, function ( responseError ) {
 			  console.error('Error while fetching bankroll: '+responseError);
@@ -36,9 +41,16 @@
 			  vm.listCopetitions();
 		  });
 		
+		MarketService.listar().then(function(responseData) {
+			vm.loading = true;
+			vm.marketList = responseData;
+		}).finally(function() {
+			$timeout(function(){
+				vm.loading = false;
+			},1);
+		});
 		
 		vm.listCopetitions = function(){
-			console.log('lendo competicoes...');
 			vm.loading = true;
 			CompetitionService.listar().then(function(responseData) {
 				vm.competitionList = responseData;
@@ -50,7 +62,6 @@
 		}
 
 		vm.listTeams = function(){
-			console.log('lendo times [competitionSelected:'+vm.competitionSelected.id+']');
 			vm.loading = true;
 			TeamService.listar(vm.competitionSelected.id).then(function(responseData) {
 				vm.teamsList = responseData;
@@ -60,10 +71,43 @@
 				},1);
 			});
 		}
-		
-		vm.test = function(){
-			console.log('time mandante selecionado: ' + vm.homeTeamSelected.id + vm.homeTeamSelected.team.name); 
+
+		vm.calculateROI = function(){
+			var total = vm.betAmount || 1;
+			vm.percentROI = (isNaN(vm.profitValue) || isNaN(total)) ? '' : vm.profitValue/total*100;
 		}		
+
+		vm.calculateProfitability = function(){
+			var total = vm.bankrollSelected.actualBankrollValue || 1;
+			vm.betPercentualBankroll = (isNaN(vm.betAmount) || isNaN(total)) ? '' : vm.betAmount/total*100;
+		}		
+		
+		vm.sendBet = function(){
+			var objSend = {
+		    		bankroll: vm.bankrollSelected,
+					competition: vm.competitionSelected,
+					homeTeam: vm.homeTeamSelected,
+					awayTeam: vm.awayTeamSelected,
+					betStatus: vm.betStatusSelected,
+					marketBet: vm.marketSelected,
+					betDate: vm.betDate,
+					betAmount: vm.betAmount,
+					profitValue: vm.profitValue,
+					betPercentualBankroll: vm.betPercentualBankroll,
+					percentROI: vm.percentROI
+	    	    };
+			console.log(objSend);
+			
+			BetBankrollService.insert(objSend).then(function(responseData) {
+				vm.loading = true;
+			}).finally(function() {
+				$timeout(function(){
+					vm.loading = false;
+					$location.path( '/betmanaget/bankroll' );
+				},1);
+			});
+			
+		}
 	}
 	
 })();

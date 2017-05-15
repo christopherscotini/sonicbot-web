@@ -56,14 +56,12 @@
 											<td>{{b.id}}</td>
 											<td>{{b.description}}</td>
 											<td>{{b.createdDate}}</td>
-											<td>{{ b.actualBankrollValue | currency }}</td>
-											<td>{{ b.yieldValue | currency }}</td>
+											<td>{{ b.actualBankrollValue | currencyMask:'mask':'BRL' }}</td>
+											<td>{{ b.yieldValue | currencyMask:'mask':'BRL' }}</td>
 											<td>
-												<button class="btn btn-labeled btn-info"
-													ng-click="bank.insertNavigation( b.id );">
-													Criar<span class="btn-label btn-label-right"><i
-														class="glyphicon glyphicon-arrow-right"></i></span>
-												</button>
+												<a href="#!betmanaget/bankroll/{{b.id}}/createbet" class="btn btn-default" >
+												  <span class="ion-social-bitcoin" aria-hidden="true"></span>
+												</a>
 											</td>
 										</tr>
 									</tbody>

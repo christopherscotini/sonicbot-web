@@ -46,7 +46,8 @@
 								<div class="row">
 									<label class="col-md-2 control-label">Bankroll</label>
 									<div class="col-md-10">{{bet.bankrollSelected.id}} -
-										{{bet.bankrollSelected.description}}</div>
+										{{bet.bankrollSelected.description}} 
+										(Saldo: {{bet.bankrollSelected.actualBankrollValue | currencyMask:'mask':'BRL' }})</div>
 								</div>
 							</div>
 
@@ -84,8 +85,7 @@
 									<label class="col-md-2 control-label">Partida</label>
 									<div class="col-md-4">
 										<select class="form-control" ng-model="bet.homeTeamSelected"
-											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id"
-											ng-change="bet.test()">
+											ng-options="tcs.team.name for tcs in bet.teamsList track by tcs.id">
 										</select>
 									</div>
 									<div class="col-md-1" style="text-align: center; bottom: -8px">
@@ -103,10 +103,10 @@
 							<div class="form-group">
 								<div class="row">
 									<label class="col-md-2 control-label">Mercado</label>
-									<div class="col-md-9">
+									<div class="col-md-5">
 										<select class="form-control"
 											ng-model="bet.marketSelected"
-											ng-options="market.name for market in bet.marketList track by market.id" >
+											ng-options="market as (market.marketBet.name +' - '+ market.name) for market in bet.marketList track by market.id" >
 										</select>
 									</div>
 								</div>
@@ -115,22 +115,58 @@
 <!-- 						CAMPO: VALOR APOSTADO -->
 							<div class="form-group">
 								<div class="row">
-									<label class="col-md-2 control-label">Stake</label>
-									<div class="col-md-10">
-										<input type="text" name="betAmount"	ng-model="bet.betAmount" ng-currency-mask>
+									<label class="col-md-2 control-label">$ Aposta</label>
+									<div class="col-md-3">
+										<input type="text" class="form-control" name="betAmount" ng-change="bet.calculateROI();bet.calculateProfitability();"	ng-model="bet.betAmount" ng-currency-mask>
 									</div>
 								</div>
 							</div>
 <!-- 						CAMPO: VALOR RETORNO -->
 							<div class="form-group">
 								<div class="row">
-									<label class="col-md-2 control-label">Profit</label>
-									<div class="col-md-10">
-										<input type="text" name="profitValue"	ng-model="bet.profitValue" ng-currency-mask>
+									<label class="col-md-2 control-label">Lucro</label>
+									<div class="col-md-3">
+										<input type="text" class="form-control" name="profitValue" ng-change="bet.calculateROI();" ng-model="bet.profitValue" ng-currency-mask>
 									</div>
 								</div>
 							</div>
 
+<!-- 						CAMPO: ROI -->
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-2 control-label">ROI</label>
+									<label class="col-md-2 control-label">{{bet.percentROI}}%</label>
+								</div>
+
+							</div>
+							
+<!-- 						CAMPO: % da banca -->
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-2 control-label">% da Banca</label>
+									<label class="col-md-2 control-label">{{bet.betPercentualBankroll}}%</label>
+								</div>
+							</div>
+							
+<!-- 						STATUS APOSTA --> 
+							<div class="form-group">
+								<div class="row">
+									<label class="col-md-2 control-label">Status</label>
+									<div class="col-md-5">
+										<select class="form-control"
+											ng-model="bet.betStatusSelected"
+											ng-options="status for status in bet.betStatusList track by status" >
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-12" style="text-align: right;">
+										<button type="button" class="btn btn-primary" ng-click="bet.sendBet();">Finalizar</button>
+									</div>
+								</div>
+							</div>
 
 						</div>
 					</div>

@@ -16,7 +16,7 @@
 			var urlConn = '';
 			
 			if(appInfoConstant.profile === 'dev2'){
-				urlConn = 'js/service/mock/bankroll.json';
+				urlConn = 'js/service/mock/bankrolls.json';
 			}else{
 				urlConn = appInfoConstant.urlBase + listCompetitionURL + bankrollId ;
 			}
