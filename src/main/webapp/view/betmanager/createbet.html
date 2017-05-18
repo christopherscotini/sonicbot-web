@@ -72,7 +72,7 @@
 									<div class="col-md-9">
 										<select class="form-control"
 											ng-model="bet.competitionSelected"
-											ng-options="comp.name for comp in bet.competitionList track by comp.id"
+											ng-options="(comp.competition.name + ' (' + comp.season.name + ')') for comp in bet.competitionList track by comp.id"
 											ng-change="bet.listTeams()">
 										</select>
 									</div>

@@ -3,9 +3,9 @@
 
 	app.controller('CreateBetController', CreateBetController);
 
-	CreateBetController.$inject = [ '$timeout', '$location', '$routeParams', 'CompetitionService', 'BankrollService', 'TeamService', 'MarketService', 'BetBankrollService' ];
+	CreateBetController.$inject = [ '$timeout', '$location', '$routeParams', 'CompetitionSeasonService', 'BankrollService', 'TeamService', 'MarketService', 'BetBankrollService' ];
 
-	function CreateBetController($timeout, $location, $routeParams, CompetitionService, BankrollService, TeamService, MarketService, BetBankrollService) {
+	function CreateBetController($timeout, $location, $routeParams, CompetitionSeasonService, BankrollService, TeamService, MarketService, BetBankrollService) {
 
 		var vm = this;
 		vm.pageTitle = 'Adicionar Aposta';
@@ -52,7 +52,7 @@
 		
 		vm.listCopetitions = function(){
 			vm.loading = true;
-			CompetitionService.listar().then(function(responseData) {
+			CompetitionSeasonService.listar().then(function(responseData) {
 				vm.competitionList = responseData;
 			}).finally(function() {
 				$timeout(function(){
@@ -63,7 +63,7 @@
 
 		vm.listTeams = function(){
 			vm.loading = true;
-			TeamService.listar(vm.competitionSelected.id).then(function(responseData) {
+			TeamService.listar(vm.competitionSelected.competition.id).then(function(responseData) {
 				vm.teamsList = responseData;
 			}).finally(function() {
 				$timeout(function(){
@@ -92,9 +92,10 @@
 					marketBet: vm.marketSelected,
 					betDate: vm.betDate,
 					betAmount: vm.betAmount,
-					profitValue: vm.profitValue,
 					betPercentualBankroll: vm.betPercentualBankroll,
-					percentROI: vm.percentROI
+					profit: vm.profitValue,
+					roi: vm.percentROI,
+					status: vm.betStatusSelected
 	    	    };
 			console.log(objSend);
 			

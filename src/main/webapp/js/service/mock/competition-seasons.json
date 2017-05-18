@@ -1,0 +1,556 @@
+[ {
+	"competition" : {
+		"id" : 87,
+		"name" : "Argentina - Prim B Nacional",
+		"url" : "",
+		"flag" : {
+			"id" : 3,
+			"name" : "Argentina - Primeira B Nacional.gif",
+			"urlImage" : "/resources/images/flags/176.gif"
+		}
+	},
+	"season" : {
+		"id" : 12883,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 7,
+		"name" : "Espanha - Primera División",
+		"url" : "",
+		"flag" : {
+			"id" : 12,
+			"name" : "Espanha - Primeira Divisão.gif",
+			"urlImage" : "/resources/images/flags/186.gif"
+		}
+	},
+	"season" : {
+		"id" : 12612,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 63,
+		"name" : "Portugal - Primeira Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 32,
+			"name" : "Portugal - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/206.gif"
+		}
+	},
+	"season" : {
+		"id" : 12613,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 43,
+		"name" : "Escócia - Premiership",
+		"url" : "",
+		"flag" : {
+			"id" : 11,
+			"name" : "Escócia - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/185.gif"
+		}
+	},
+	"season" : {
+		"id" : 12610,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 33,
+		"name" : "Estados Unidos da América - MLS",
+		"url" : "",
+		"flag" : {
+			"id" : 14,
+			"name" : "Estados Unidos da América - MLS.gif",
+			"urlImage" : "/resources/images/flags/188.gif"
+		}
+	},
+	"season" : {
+		"id" : 13431,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 16,
+		"name" : "França - Ligue 1",
+		"url" : "",
+		"flag" : {
+			"id" : 15,
+			"name" : "França - Ligue 1.gif",
+			"urlImage" : "/resources/images/flags/189.gif"
+		}
+	},
+	"season" : {
+		"id" : 12611,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 17,
+		"name" : "França - Ligue 2",
+		"url" : "",
+		"flag" : {
+			"id" : 16,
+			"name" : "França - Ligue 2.gif",
+			"urlImage" : "/resources/images/flags/190.gif"
+		}
+	},
+	"season" : {
+		"id" : 12608,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 1,
+		"name" : "Holanda - Eredivisie",
+		"url" : "",
+		"flag" : {
+			"id" : 19,
+			"name" : "Holanda - Eredivisie.gif",
+			"urlImage" : "/resources/images/flags/193.gif"
+		}
+	},
+	"season" : {
+		"id" : 12738,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 70,
+		"name" : "Inglaterra - Championship",
+		"url" : "",
+		"flag" : {
+			"id" : 23,
+			"name" : "Inglaterra - 3. League One.gif",
+			"urlImage" : "/resources/images/flags/197.gif"
+		}
+	},
+	"season" : {
+		"id" : 12786,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 61,
+		"name" : "Croácia - 1. HNL Primeira Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 42,
+			"name" : "Croácia - 1. HNL Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/220.gif"
+		}
+	},
+	"season" : {
+		"id" : 12614,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 30,
+		"name" : "Dinamarca - Super Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 10,
+			"name" : "Dinamarca - Super Liga.gif",
+			"urlImage" : "/resources/images/flags/184.gif"
+		}
+	},
+	"season" : {
+		"id" : 12794,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 155,
+		"name" : "México - Liga MX",
+		"url" : "",
+		"flag" : {
+			"id" : 43,
+			"name" : "México - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/129.gif"
+		}
+	},
+	"season" : {
+		"id" : 12841,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 8,
+		"name" : "Inglaterra - Premier League",
+		"url" : "",
+		"flag" : {
+			"id" : 22,
+			"name" : "Inglaterra - 2. Championship.gif",
+			"urlImage" : "/resources/images/flags/196.gif"
+		}
+	},
+	"season" : {
+		"id" : 12653,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 9,
+		"name" : "Alemanha - Bundesliga",
+		"url" : "",
+		"flag" : {
+			"id" : 1,
+			"name" : "Alemanha - 2. Bundesliga.gif",
+			"urlImage" : "/resources/images/flags/174.gif"
+		}
+	},
+	"season" : {
+		"id" : 12593,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 11,
+		"name" : "Alemanha - 2. Bundesliga",
+		"url" : "",
+		"flag" : {
+			"id" : 2,
+			"name" : "Alemanha - Bundesliga.gif",
+			"urlImage" : "/resources/images/flags/175.gif"
+		}
+	},
+	"season" : {
+		"id" : 12594,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 12,
+		"name" : "Espanha - Segunda División",
+		"url" : "",
+		"flag" : {
+			"id" : 13,
+			"name" : "Espanha - Segunda Divisão.gif",
+			"urlImage" : "/resources/images/flags/187.gif"
+		}
+	},
+	"season" : {
+		"id" : 12985,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 13,
+		"name" : "Itália - Série A",
+		"url" : "",
+		"flag" : {
+			"id" : 26,
+			"name" : "Itália - Série A.gif",
+			"urlImage" : "/resources/images/flags/200.gif"
+		}
+	},
+	"season" : {
+		"id" : 12659,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 109,
+		"name" : "Japão - J1 League",
+		"url" : "",
+		"flag" : {
+			"id" : 28,
+			"name" : "Japão - J1 Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/202.gif"
+		}
+	},
+	"season" : {
+		"id" : 13416,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 119,
+		"name" : "Polónia - Ekstraklasa",
+		"url" : "",
+		"flag" : {
+			"id" : 31,
+			"name" : "Polónia - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/205.gif"
+		}
+	},
+	"season" : {
+		"id" : 12620,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 121,
+		"name" : "Rússia - FNL",
+		"url" : "",
+		"flag" : {
+			"id" : 35,
+			"name" : "Rússia - FNL Segunda Liga.gif",
+			"urlImage" : "/resources/images/flags/210.gif"
+		}
+	},
+	"season" : {
+		"id" : 12739,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 67,
+		"name" : "Hungria - NB I",
+		"url" : "",
+		"flag" : {
+			"id" : 21,
+			"name" : "Hungria - NB I Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/195.gif"
+		}
+	},
+	"season" : {
+		"id" : 12517,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 28,
+		"name" : "Suécia - Allsvenskan",
+		"url" : "",
+		"flag" : {
+			"id" : 37,
+			"name" : "Suécia - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/212.gif"
+		}
+	},
+	"season" : {
+		"id" : 13293,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 59,
+		"name" : "Bulgária - A PFG",
+		"url" : "",
+		"flag" : {
+			"id" : 41,
+			"name" : "Bulgária - A PFG Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/218.gif"
+		}
+	},
+	"season" : {
+		"id" : 12842,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 14,
+		"name" : "Itália - Série B",
+		"url" : "",
+		"flag" : {
+			"id" : 27,
+			"name" : "Itália - Série B.gif",
+			"urlImage" : "/resources/images/flags/201.gif"
+		}
+	},
+	"season" : {
+		"id" : 12928,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 29,
+		"name" : "Noruega - Eliteserien",
+		"url" : "",
+		"flag" : {
+			"id" : 30,
+			"name" : "Noruega - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/204.gif"
+		}
+	},
+	"season" : {
+		"id" : 13352,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 19,
+		"name" : "Turquia - Super Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 39,
+			"name" : "Turquia - Super Liga.gif",
+			"urlImage" : "/resources/images/flags/214.gif"
+		}
+	},
+	"season" : {
+		"id" : 12658,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 15,
+		"name" : "Inglaterra - League One",
+		"url" : "",
+		"flag" : {
+			"id" : 24,
+			"name" : "Inglaterra - Premier League.gif",
+			"urlImage" : "/resources/images/flags/198.gif"
+		}
+	},
+	"season" : {
+		"id" : 12787,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 100,
+		"name" : "Portugal - Segunda Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 33,
+			"name" : "Portugal - Segunda Liga.gif",
+			"urlImage" : "/resources/images/flags/207.gif"
+		}
+	},
+	"season" : {
+		"id" : 12625,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 88,
+		"name" : "Argentina - Primera División",
+		"url" : "",
+		"flag" : {
+			"id" : 4,
+			"name" : "Argentina - Primeira Divisão.gif",
+			"urlImage" : "/resources/images/flags/177.gif"
+		}
+	},
+	"season" : {
+		"id" : 12977,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 108,
+		"name" : "Grécia - Super League",
+		"url" : "",
+		"flag" : {
+			"id" : 18,
+			"name" : "Grécia - Super Liga.gif",
+			"urlImage" : "/resources/images/flags/192.gif"
+		}
+	},
+	"season" : {
+		"id" : 13094,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 24,
+		"name" : "Bélgica - Pro League",
+		"url" : "",
+		"flag" : {
+			"id" : 7,
+			"name" : "Bélgica - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/180.gif"
+		}
+	},
+	"season" : {
+		"id" : 12795,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 34,
+		"name" : "Irlanda - Premier Division",
+		"url" : "",
+		"flag" : {
+			"id" : 25,
+			"name" : "Irlanda - Primeira Divisão.gif",
+			"urlImage" : "/resources/images/flags/199.gif"
+		}
+	},
+	"season" : {
+		"id" : 13279,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 5,
+		"name" : "Holanda - Eerste Divisie",
+		"url" : "",
+		"flag" : {
+			"id" : 20,
+			"name" : "Holanda - Segunda Liga.gif",
+			"urlImage" : "/resources/images/flags/194.gif"
+		}
+	},
+	"season" : {
+		"id" : 12507,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 107,
+		"name" : "Grécia - Football League",
+		"url" : "",
+		"flag" : {
+			"id" : 17,
+			"name" : "Grécia - Segunda Liga.gif",
+			"urlImage" : "/resources/images/flags/191.gif"
+		}
+	},
+	"season" : {
+		"id" : 12796,
+		"name" : "2016/2017"
+	}
+}, {
+	"competition" : {
+		"id" : 136,
+		"name" : "Coreia do Sul - Primeira Liga",
+		"url" : "",
+		"flag" : {
+			"id" : 9,
+			"name" : "Coreia do Sul - Primeira Liga.gif",
+			"urlImage" : "/resources/images/flags/183.gif"
+		}
+	},
+	"season" : {
+		"id" : 13312,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 110,
+		"name" : "Japão - J2 League",
+		"url" : "",
+		"flag" : {
+			"id" : 29,
+			"name" : "Japão - J2 Segunda Liga.gif",
+			"urlImage" : "/resources/images/flags/203.gif"
+		}
+	},
+	"season" : {
+		"id" : 13417,
+		"name" : "2017"
+	}
+}, {
+	"competition" : {
+		"id" : 26,
+		"name" : "Brasil - Série A",
+		"url" : "",
+		"flag" : {
+			"id" : 5,
+			"name" : "Brasil - Série A.gif",
+			"urlImage" : "/resources/images/flags/178.gif"
+		}
+	},
+	"season" : {
+		"id" : 13464,
+		"name" : "2017"
+	}
+} ]
